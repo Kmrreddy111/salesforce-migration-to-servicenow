@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_category">
+  <sys_ux_list_category action="INSERT_OR_UPDATE">
+    <sys_id>072ebaf08d7c4545b10ac8641441efcc</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_ux_list_category_072ebaf08d7c4545b10ac8641441efcc</sys_update_name>
+    <active>true</active>
+    <configuration>8484ec8d9b2d4746909e073b95e06c6b</configuration>
+    <description/>
+    <order>60</order>
+    <title>Contracts</title>
+  </sys_ux_list_category>
+</record_update>

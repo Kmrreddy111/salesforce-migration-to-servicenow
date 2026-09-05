@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability">
+  <sys_ux_applicability action="INSERT_OR_UPDATE">
+    <sys_id>e52726dd54e64d46937824223693114e</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_ux_applicability_e52726dd54e64d46937824223693114e</sys_update_name>
+    <active>true</active>
+    <description/>
+    <name>SF Migration Users</name>
+    <role_names/>
+    <roles>75a68d8041c64107a90581e3a8000200</roles>
+  </sys_ux_applicability>
+</record_update>

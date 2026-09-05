@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="General" section_id="638ce6285442456081549e9a0d4e45fd" sys_domain="global" table="x_1775706_salesfor_sf_contact" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>ae13873ccd824870b8c9db0f1e8eb0fc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>first_name</element>
+      <position>1</position>
+      <sys_id>34bbfb63867247cfa496faa4b1b3c9f2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>email</element>
+      <position>2</position>
+      <sys_id>2672ea3a8cb24baf9b1029caf0b22603</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>account</element>
+      <position>3</position>
+      <sys_id>7fc2bbabd64d4368b1bdb84fb83ffb5a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>title</element>
+      <position>4</position>
+      <sys_id>9d1afe027d8a4bd999dfc49d1b1456b1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>5</position>
+      <sys_id>35b6322c6c3444898be2385a6253ddfe</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>last_name</element>
+      <position>6</position>
+      <sys_id>516dcc5405a54e7085d9969840449a0f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>phone</element>
+      <position>7</position>
+      <sys_id>38b437aefd8b40f48b088d7b2d73454d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>company</element>
+      <position>8</position>
+      <sys_id>27a3b50dcd4042c9b49c9b58b474964f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>department</element>
+      <position>9</position>
+      <sys_id>3613036a8196402896373fb0a7675e5e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>10</position>
+      <sys_id>8553398ccea348449d51063007c63602</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contact" sys_domain="global" view="Default view">638ce6285442456081549e9a0d4e45fd</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>General</caption>
+      <header>false</header>
+      <name>x_1775706_salesfor_sf_contact</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>638ce6285442456081549e9a0d4e45fd</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

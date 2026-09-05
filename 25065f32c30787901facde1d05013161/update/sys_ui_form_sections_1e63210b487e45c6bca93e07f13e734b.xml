@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="1e63210b487e45c6bca93e07f13e734b" sys_domain="global" table="x_1775706_salesfor_sf_product">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>24a30d7edaa14c01891018401e8c2bdd</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_product" name="x_1775706_salesfor_sf_product" sys_domain="global" view="Default view">1e63210b487e45c6bca93e07f13e734b</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_product" sys_domain="global" view="Default view">3164cf9e130347dda0a4c237b88269b2</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>1</position>
+      <sys_id>e3f212c0447b483d96159ab35a2efa88</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_product" name="x_1775706_salesfor_sf_product" sys_domain="global" view="Default view">1e63210b487e45c6bca93e07f13e734b</sys_ui_form>
+      <sys_ui_section caption="Description" display_value="Description" name="x_1775706_salesfor_sf_product" sys_domain="global" view="Default view">c208c532a5f04fa492ad95b5b8107d83</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1775706_salesfor_sf_product</name>
+      <roles/>
+      <sys_id>1e63210b487e45c6bca93e07f13e734b</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

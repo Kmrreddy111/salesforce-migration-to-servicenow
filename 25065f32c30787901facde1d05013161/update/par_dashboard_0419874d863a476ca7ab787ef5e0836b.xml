@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard">
+  <par_dashboard action="INSERT_OR_UPDATE">
+    <sys_id>0419874d863a476ca7ab787ef5e0836b</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>par_dashboard_0419874d863a476ca7ab787ef5e0836b</sys_update_name>
+    <active>true</active>
+    <certified>false</certified>
+    <description/>
+    <name>SF Migration Dashboard</name>
+  </par_dashboard>
+</record_update>

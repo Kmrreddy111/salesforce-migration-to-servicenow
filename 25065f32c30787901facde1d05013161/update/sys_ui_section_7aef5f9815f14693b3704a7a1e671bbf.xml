@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="General" section_id="7aef5f9815f14693b3704a7a1e671bbf" sys_domain="global" table="x_1775706_salesfor_sf_priceln" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>2c0232feca2046d78d62cdbc7fb58388</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>code</element>
+      <position>1</position>
+      <sys_id>3533ff3bd2984f4fa00f26257711124e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>product_offering</element>
+      <position>2</position>
+      <sys_id>3174a5f7bd684520afe6a56a46dd0462</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>price_list</element>
+      <position>3</position>
+      <sys_id>4a3847ef01d24b80b3da2ee59c4b8862</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>start_date</element>
+      <position>4</position>
+      <sys_id>9e0205ea53614a0ca91a8bb597ccb496</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>5</position>
+      <sys_id>fc8a6dd2a89a427a84b15c48810216b7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>number</element>
+      <position>6</position>
+      <sys_id>bb52de843add459aa9cb5fa570d4c013</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>list_price</element>
+      <position>7</position>
+      <sys_id>591f377a986a41099f7fccf261734794</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>uom</element>
+      <position>8</position>
+      <sys_id>d2af6954181e4ad79ebbb1c2e7aafcbb</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>end_date</element>
+      <position>9</position>
+      <sys_id>188fe836b9fb41cdbea308f0c0b64a19</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>10</position>
+      <sys_id>f51f1408ce22415daa7edac9f5135262</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_priceln" sys_domain="global" view="Default view">7aef5f9815f14693b3704a7a1e671bbf</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>General</caption>
+      <header>false</header>
+      <name>x_1775706_salesfor_sf_priceln</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>7aef5f9815f14693b3704a7a1e671bbf</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

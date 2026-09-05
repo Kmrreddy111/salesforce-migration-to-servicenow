@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+  <sys_ux_screen_type action="INSERT_OR_UPDATE">
+    <sys_id>7f94e251d21e40c29958dc6f77bca0c3</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_ux_screen_type_7f94e251d21e40c29958dc6f77bca0c3</sys_update_name>
+    <description/>
+    <name>Record Default</name>
+  </sys_ux_screen_type>
+</record_update>

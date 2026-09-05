@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="06623daad2ab4d72b0f66a850707a678" sys_domain="global" table="x_1775706_salesfor_sf_asset">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>b66bdbe7f93d4139b697a83b8ef17737</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_asset" name="x_1775706_salesfor_sf_asset" sys_domain="global" view="Default view">06623daad2ab4d72b0f66a850707a678</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_asset" sys_domain="global" view="Default view">c2fcc3884d464c18a802ec701de2deab</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>1</position>
+      <sys_id>78ec61c401b04293b2dd1b343adbaa0d</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_asset" name="x_1775706_salesfor_sf_asset" sys_domain="global" view="Default view">06623daad2ab4d72b0f66a850707a678</sys_ui_form>
+      <sys_ui_section caption="Notes" display_value="Notes" name="x_1775706_salesfor_sf_asset" sys_domain="global" view="Default view">6e7bc866d2724f7684376f3ad3aa0205</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1775706_salesfor_sf_asset</name>
+      <roles/>
+      <sys_id>06623daad2ab4d72b0f66a850707a678</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="e623657aa7064a3e9a95a25271190495" sys_domain="global" table="x_1775706_salesfor_sf_tmt_ord">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>a0f78ddc8c0746559d40dce2bff5755f</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_tmt_ord" name="x_1775706_salesfor_sf_tmt_ord" sys_domain="global" view="Default view">e623657aa7064a3e9a95a25271190495</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_tmt_ord" sys_domain="global" view="Default view">4e6fffc4abff472883669c2ff4dcb187</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>1</position>
+      <sys_id>3cf76111872a43cdaacd25cf8c1b0ca2</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_tmt_ord" name="x_1775706_salesfor_sf_tmt_ord" sys_domain="global" view="Default view">e623657aa7064a3e9a95a25271190495</sys_ui_form>
+      <sys_ui_section caption="Notes" display_value="Notes" name="x_1775706_salesfor_sf_tmt_ord" sys_domain="global" view="Default view">09dfe7a3ebc8479f96a299e104ce7f89</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1775706_salesfor_sf_tmt_ord</name>
+      <roles/>
+      <sys_id>e623657aa7064a3e9a95a25271190495</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

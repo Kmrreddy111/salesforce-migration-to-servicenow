@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+  <par_dashboard_visibility action="INSERT_OR_UPDATE">
+    <sys_id>96fa901d0c6e47398797e37902aea40c</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>par_dashboard_visibility_96fa901d0c6e47398797e37902aea40c</sys_update_name>
+    <dashboard>0419874d863a476ca7ab787ef5e0836b</dashboard>
+    <experience>9b75819c0ac34d53a5c1df829fa82955</experience>
+  </par_dashboard_visibility>
+</record_update>

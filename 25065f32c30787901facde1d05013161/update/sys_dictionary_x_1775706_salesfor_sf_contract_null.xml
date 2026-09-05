@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1775706_salesfor_sf_contract">
+    <sys_id>a845f8b3b5314b2b928953b01c32eb0b</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_dictionary_x_1775706_salesfor_sf_contract_null</sys_update_name>
+    <active>true</active>
+    <attributes/>
+    <audit>false</audit>
+    <element/>
+    <internal_type>collection</internal_type>
+    <name>x_1775706_salesfor_sf_contract</name>
+    <read_only>false</read_only>
+    <text_index>false</text_index>
+  </sys_dictionary>
+</record_update>

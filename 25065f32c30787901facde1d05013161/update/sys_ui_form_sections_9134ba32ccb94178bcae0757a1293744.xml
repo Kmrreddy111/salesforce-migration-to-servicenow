@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="9134ba32ccb94178bcae0757a1293744" sys_domain="global" table="x_1775706_salesfor_sf_account">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>34b4358c4a6c4190be8fb89b23588a1c</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_account" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">9134ba32ccb94178bcae0757a1293744</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">69e4bc839ef04b4cbfb3da146862c318</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>1</position>
+      <sys_id>b1b11b9a9cf641749e7700fb906eeca2</sys_id>
+      <sys_ui_form display_value="x_1775706_salesfor_sf_account" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">9134ba32ccb94178bcae0757a1293744</sys_ui_form>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1775706_salesfor_sf_account</name>
+      <roles/>
+      <sys_id>9134ba32ccb94178bcae0757a1293744</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

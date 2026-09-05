@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Address &amp; Notes" section_id="aacee650902d49f08e04498e8bdbf227" sys_domain="global" table="x_1775706_salesfor_sf_account" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>street</element>
+      <position>0</position>
+      <sys_id>ab629e68b00541a7a14d261848580482</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>city</element>
+      <position>1</position>
+      <sys_id>9e2fb459551e410a8cdad497ca33b6b2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>state</element>
+      <position>2</position>
+      <sys_id>e3fc47ffff264ce98ce989c2f27200f2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>zip</element>
+      <position>3</position>
+      <sys_id>6899a496d1454adcb43ee98a32b00cc9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>notes</element>
+      <position>4</position>
+      <sys_id>541f53a1fd59410c9731891da2062357</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Address &amp; Notes" display_value="Address &amp; Notes" name="x_1775706_salesfor_sf_account" sys_domain="global" view="Default view">aacee650902d49f08e04498e8bdbf227</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Address &amp; Notes</caption>
+      <header>false</header>
+      <name>x_1775706_salesfor_sf_account</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>aacee650902d49f08e04498e8bdbf227</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

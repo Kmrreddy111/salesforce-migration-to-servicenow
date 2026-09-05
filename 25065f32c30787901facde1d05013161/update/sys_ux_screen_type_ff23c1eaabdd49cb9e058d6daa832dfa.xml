@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+  <sys_ux_screen_type action="INSERT_OR_UPDATE">
+    <sys_id>ff23c1eaabdd49cb9e058d6daa832dfa</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_ux_screen_type_ff23c1eaabdd49cb9e058d6daa832dfa</sys_update_name>
+    <description/>
+    <name>Dashboards Default</name>
+  </sys_ux_screen_type>
+</record_update>

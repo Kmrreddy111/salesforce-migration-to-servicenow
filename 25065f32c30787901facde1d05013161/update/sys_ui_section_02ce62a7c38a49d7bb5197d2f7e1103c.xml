@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Details" section_id="02ce62a7c38a49d7bb5197d2f7e1103c" sys_domain="global" table="x_1775706_salesfor_sf_quote_li" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>short_description</element>
+      <position>0</position>
+      <sys_id>69a20ed47aa5495487d9a5603a06213d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Details" display_value="Details" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">02ce62a7c38a49d7bb5197d2f7e1103c</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>work_notes</element>
+      <position>1</position>
+      <sys_id>5b79e56322c7418799cb762c16f47666</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Details" display_value="Details" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">02ce62a7c38a49d7bb5197d2f7e1103c</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Details</caption>
+      <header>false</header>
+      <name>x_1775706_salesfor_sf_quote_li</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>02ce62a7c38a49d7bb5197d2f7e1103c</sys_id>
+      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>
