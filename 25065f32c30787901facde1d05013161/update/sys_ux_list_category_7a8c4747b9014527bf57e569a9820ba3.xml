@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_category">
-  <sys_ux_list_category action="INSERT_OR_UPDATE">
-    <sys_id>7a8c4747b9014527bf57e569a9820ba3</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sys_ux_list_category_7a8c4747b9014527bf57e569a9820ba3</sys_update_name>
-    <active>true</active>
-    <configuration>8484ec8d9b2d4746909e073b95e06c6b</configuration>
-    <description/>
-    <order>50</order>
-    <title>Orders</title>
-  </sys_ux_list_category>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="SF Migration List Config">8484ec8d9b2d4746909e073b95e06c6b</configuration>
+        <description/>
+        <order>50</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a8c4747b9014527bf57e569a9820ba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_ux_list_category_7a8c4747b9014527bf57e569a9820ba3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:50</sys_updated_on>
+        <title>Orders</title>
+    </sys_ux_list_category>
 </record_update>

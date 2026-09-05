@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Model Management" source="com.snc.model">502694e4f58003100a22c0b3dfa15171</dependency>
+        <min_version>1.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:31</sys_created_on>
+        <sys_id>6f7d5a47c3cf8b901facde1d05013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:31</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

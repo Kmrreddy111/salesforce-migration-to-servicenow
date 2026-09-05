@@ -1,14 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
-  <sys_ux_page_property action="INSERT_OR_UPDATE">
-    <sys_id>3a983f1cff5c4c00a1fabe06c4499210</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sys_ux_page_property_3a983f1cff5c4c00a1fabe06c4499210</sys_update_name>
-    <description/>
-    <name>chrome_toolbar</name>
-    <page>9b75819c0ac34d53a5c1df829fa82955</page>
-    <route/>
-    <suffix>chrome_toolbar</suffix>
-    <type>json</type>
-    <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-fill","routeInfo":{"route":"home"},"group":"top","order":100,"badge":{},"presence":{},"availability":{},"viewportInfo":{}},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"list-fill","routeInfo":{"route":"list"},"group":"top","order":200,"badge":{},"presence":{},"availability":{},"viewportInfo":{}}]</value>
-  </sys_ux_page_property>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="SF Migration">9b75819c0ac34d53a5c1df829fa82955</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_toolbar</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a983f1cff5c4c00a1fabe06c4499210</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_ux_page_property_3a983f1cff5c4c00a1fabe06c4499210</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:51</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-fill","routeInfo":{"route":"home"},"group":"top","order":100,"badge":{},"presence":{},"availability":{},"viewportInfo":{}},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"list-fill","routeInfo":{"route":"list"},"group":"top","order":200,"badge":{},"presence":{},"availability":{},"viewportInfo":{}}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a983f1cff5c4c00a1fabe06c4499210"/>
 </record_update>

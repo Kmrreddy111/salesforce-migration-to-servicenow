@@ -1,134 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="General" section_id="e1e728dbeeb845ffa76c8dac24ef8135" sys_domain="global" table="x_1775706_salesfor_sf_quote_li" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>a784e63f28e64fab80cbae7897203d79</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>number</element>
-      <position>1</position>
-      <sys_id>7e133be41a2d49fe8592fa76bd780b94</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>product_offering</element>
-      <position>2</position>
-      <sys_id>12ed7f48a61a427c9d35c0e9d2a67026</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>list_price</element>
-      <position>3</position>
-      <sys_id>55d86057e22d44f1bfc631ebdcc832eb</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>contract_start_date</element>
-      <position>4</position>
-      <sys_id>c0e424f7275b4d8b934d31c3b681d5eb</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>state</element>
-      <position>5</position>
-      <sys_id>18a5de79e2f14ca1a4bf52a0d4a884a5</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.split</element>
-      <position>6</position>
-      <sys_id>ad14007aef2d41428b0466a8a71089c2</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>quote</element>
-      <position>7</position>
-      <sys_id>149d03a5ed64408fb6b9deaa19ba81fc</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>quantity</element>
-      <position>8</position>
-      <sys_id>43ba8d50abee41c1939923f5ca7c58af</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>unit_price</element>
-      <position>9</position>
-      <sys_id>ba62fcbaca2b4293bc12b8c2d7614609</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>contract_end_date</element>
-      <position>10</position>
-      <sys_id>defaf699ad2d4b6d878c6901d7758813</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>action</element>
-      <position>11</position>
-      <sys_id>cf6e4fcc72ad48de900a90eea2df4394</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE">
-      <element>.end_split</element>
-      <position>12</position>
-      <sys_id>dd0f56d75c6f44b3a2257512f8ef989a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE">
-      <caption>General</caption>
-      <header>false</header>
-      <name>x_1775706_salesfor_sf_quote_li</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>e1e728dbeeb845ffa76c8dac24ef8135</sys_id>
-      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="General" section_id="e1e728dbeeb845ffa76c8dac24ef8135" sys_domain="global" table="x_1775706_salesfor_sf_quote_li" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>a784e63f28e64fab80cbae7897203d79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>7e133be41a2d49fe8592fa76bd780b94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product_offering</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>12ed7f48a61a427c9d35c0e9d2a67026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>list_price</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>55d86057e22d44f1bfc631ebdcc832eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_start_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>c0e424f7275b4d8b934d31c3b681d5eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>18a5de79e2f14ca1a4bf52a0d4a884a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>ad14007aef2d41428b0466a8a71089c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quote</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>149d03a5ed64408fb6b9deaa19ba81fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>43ba8d50abee41c1939923f5ca7c58af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_price</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>ba62fcbaca2b4293bc12b8c2d7614609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_end_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>defaf699ad2d4b6d878c6901d7758813</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>cf6e4fcc72ad48de900a90eea2df4394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:48</sys_created_on>
+            <sys_id>dd0f56d75c6f44b3a2257512f8ef989a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_quote_li" sys_domain="global" view="Default view">e1e728dbeeb845ffa76c8dac24ef8135</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>x_1775706_salesfor_sf_quote_li</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 11:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e728dbeeb845ffa76c8dac24ef8135</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1775706_salesfor_sf_quote_li</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+            <sys_update_name>sys_ui_section_e1e728dbeeb845ffa76c8dac24ef8135</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 11:30:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>

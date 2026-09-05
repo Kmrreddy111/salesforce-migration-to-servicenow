@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
-  <sys_atf_test action="INSERT_OR_UPDATE">
-    <sys_id>01792b218a4647c18189c8da26cd5644</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sys_atf_test_01792b218a4647c18189c8da26cd5644</sys_update_name>
-    <active>true</active>
-    <description>Tests the full SFDC import pipeline: inserts 2 accounts and 3 contacts into staging tables, runs transforms in order (accounts first), and verifies records are created in sf_account and sf_contact with correct field mappings, industry conversion, and account reference resolution.</description>
-    <fail_on_server_error>true</fail_on_server_error>
-    <name>SFDC Import Pipeline - E2E Test</name>
-  </sys_atf_test>
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Tests the full SFDC import pipeline: inserts 2 accounts and 3 contacts into staging tables, runs transforms in order (accounts first), and verifies records are created in sf_account and sf_contact with correct field mappings, industry conversion, and account reference resolution.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>SFDC Import Pipeline - E2E Test</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:24:11</sys_created_on>
+        <sys_id>01792b218a4647c18189c8da26cd5644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFDC Import Pipeline - E2E Test</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_atf_test_01792b218a4647c18189c8da26cd5644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:24:11</sys_updated_on>
+        <test_origin/>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=01792b218a4647c18189c8da26cd5644"/>
 </record_update>

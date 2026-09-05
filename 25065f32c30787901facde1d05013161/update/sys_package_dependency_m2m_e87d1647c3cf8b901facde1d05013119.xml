@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Lead Management Data Model" source="sn_lead_mgmt_core">909d679343333110144160b6ccb8f2ee</dependency>
+        <min_version>6.3.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:20</sys_created_on>
+        <sys_id>e87d1647c3cf8b901facde1d05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

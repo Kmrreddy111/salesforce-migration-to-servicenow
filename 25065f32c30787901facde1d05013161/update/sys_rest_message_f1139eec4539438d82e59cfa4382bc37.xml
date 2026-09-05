@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
-  <sys_rest_message action="INSERT_OR_UPDATE">
-    <sys_id>f1139eec4539438d82e59cfa4382bc37</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sys_rest_message_f1139eec4539438d82e59cfa4382bc37</sys_update_name>
-    <access>package_private</access>
-    <authentication_type>oauth2</authentication_type>
-    <basic_auth_profile/>
-    <description>OAuth 2.0 authentication for Salesforce migration integration</description>
-    <name>SFDC Migration - Salesforce API</name>
-    <oauth2_profile>f308439c8a8342f6bc9f80b2a48f097d</oauth2_profile>
-    <rest_endpoint>https://avatupprivatelimited2.my.salesforce.com</rest_endpoint>
-  </sys_rest_message>
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>OAuth 2.0 authentication for Salesforce migration integration</description>
+        <name>SFDC Migration - Salesforce API</name>
+        <oauth2_profile display_value="SFDC Migration - OAuth 2.0 1">f308439c8a8342f6bc9f80b2a48f097d</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://avatupprivatelimited2.my.salesforce.com</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:58:18</sys_created_on>
+        <sys_id>f1139eec4539438d82e59cfa4382bc37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFDC Migration - Salesforce API</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_rest_message_f1139eec4539438d82e59cfa4382bc37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:58:18</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
 </record_update>

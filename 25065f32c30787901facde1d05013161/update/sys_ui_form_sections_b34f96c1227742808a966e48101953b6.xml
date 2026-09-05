@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_form_sections form_id="b34f96c1227742808a966e48101953b6" sys_domain="global" table="x_1775706_salesfor_sf_contract">
-    <sys_ui_form_section action="INSERT_OR_UPDATE">
-      <position>0</position>
-      <sys_id>cd2626e241e546e0ac7e0a4e1b6c6d06</sys_id>
-      <sys_ui_form display_value="x_1775706_salesfor_sf_contract" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">b34f96c1227742808a966e48101953b6</sys_ui_form>
-      <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">1a52fbc855224591a6f5a9c6eb553450</sys_ui_section>
-    </sys_ui_form_section>
-    <sys_ui_form_section action="INSERT_OR_UPDATE">
-      <position>1</position>
-      <sys_id>ab93b54b31a04de08ed2c3e47e68c910</sys_id>
-      <sys_ui_form display_value="x_1775706_salesfor_sf_contract" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">b34f96c1227742808a966e48101953b6</sys_ui_form>
-      <sys_ui_section caption="Details" display_value="Details" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">3d162a7e7b05446cadba2495d578a0f8</sys_ui_section>
-    </sys_ui_form_section>
-    <sys_ui_form action="INSERT_OR_UPDATE">
-      <name>x_1775706_salesfor_sf_contract</name>
-      <roles/>
-      <sys_id>b34f96c1227742808a966e48101953b6</sys_id>
-      <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-      <sys_user/>
-      <view display_value="Default view" name="NULL">Default view</view>
-      <view_name/>
-    </sys_ui_form>
-  </sys_ui_form_sections>
+    <sys_ui_form_sections form_id="b34f96c1227742808a966e48101953b6" sys_domain="global" table="x_1775706_salesfor_sf_contract" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd2626e241e546e0ac7e0a4e1b6c6d06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1775706_salesfor_sf_contract" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">b34f96c1227742808a966e48101953b6</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">1a52fbc855224591a6f5a9c6eb553450</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab93b54b31a04de08ed2c3e47e68c910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1775706_salesfor_sf_contract" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">b34f96c1227742808a966e48101953b6</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1775706_salesfor_sf_contract" sys_domain="global" view="Default view">3d162a7e7b05446cadba2495d578a0f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1775706_salesfor_sf_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 11:30:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b34f96c1227742808a966e48101953b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1775706_salesfor_sf_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b34f96c1227742808a966e48101953b6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 11:30:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
 </record_update>

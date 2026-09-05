@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Opportunity Management Data Model" source="sn_opty_mgmt_core">a90dea9893c939507655be184dba10ac</dependency>
+        <min_version>13.1.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:22</sys_created_on>
+        <sys_id>c57d1647c3cf8b901facde1d050131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:22</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

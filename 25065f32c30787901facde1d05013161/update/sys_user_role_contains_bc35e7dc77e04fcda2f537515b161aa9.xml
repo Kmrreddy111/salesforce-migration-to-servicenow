@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
-  <sys_user_role_contains action="INSERT_OR_UPDATE">
-    <sys_id>bc35e7dc77e04fcda2f537515b161aa9</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sys_user_role_contains_bc35e7dc77e04fcda2f537515b161aa9</sys_update_name>
-    <contains name="canvas_user">3a2096ed44094012b821b3c8b8887b1d</contains>
-    <role name="x_1775706_salesfor.user">75a68d8041c64107a90581e3a8000200</role>
-  </sys_user_role_contains>
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_1775706_salesfor.user" name="x_1775706_salesfor.user">75a68d8041c64107a90581e3a8000200</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:48</sys_created_on>
+        <sys_id>bc35e7dc77e04fcda2f537515b161aa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1775706_salesfor.user</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_user_role_contains_bc35e7dc77e04fcda2f537515b161aa9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:48</sys_updated_on>
+    </sys_user_role_contains>
 </record_update>

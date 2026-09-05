@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
-  <sysauto_script action="INSERT_OR_UPDATE">
-    <sys_id>8e84da200e6b4ad2ad6acb896de3b40c</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>sysauto_script_8e84da200e6b4ad2ad6acb896de3b40c</sys_update_name>
-    <active>true</active>
-    <advanced>false</advanced>
-    <business_calendar/>
-    <condition/>
-    <conditional>false</conditional>
-    <entered_run_end/>
-    <entered_run_start/>
-    <entered_time/>
-    <max_drift/>
-    <name>SFDC Import Pipeline Test</name>
-    <offset/>
-    <offset_type>0</offset_type>
-    <repeat_every/>
-    <run_as/>
-    <run_as_tz/>
-    <run_dayofmonth>1</run_dayofmonth>
-    <run_dayofweek>1</run_dayofweek>
-    <run_daysofweek/>
-    <run_end/>
-    <run_month/>
-    <run_period/>
-    <run_start>2026-09-05 13:24:01</run_start>
-    <run_time>1970-01-01 00:00:00</run_time>
-    <run_type>once</run_type>
-    <run_weekinmonth/>
-    <script><![CDATA[(function () {
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>SFDC Import Pipeline Test</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-09-05 13:24:01</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>once</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[(function () {
     gs.info('=== SFDC Import Pipeline Test Started ===');
 
     var jsonStr = '{"status":"success","accounts":[{"contacts":[{"Title":"Purchase Manager","Phone":"9000000001","Name":"RAYAN FAIZ","LastName":"FAIZ","Id":"003dN00000UxZ25QAF","FirstName":"RAYAN","Email":"rayan.faiz@avatu.in","AccountId":"001dN000011ZtlJQAS"},{"Title":"ICU Head","Phone":"9000000003","Name":"Sneha Mallavelli","LastName":"Mallavelli","Id":"003dN00000UxZYLQA3","FirstName":"Sneha","Email":"snehamallavelli123@gmail.com","AccountId":"001dN000011ZtlJQAS"},{"Title":"Finance Approver","Phone":"9000000002","Name":"Manjunath Reddy","LastName":"Reddy","Id":"003dN00000UxZQHQA3","FirstName":"Manjunath","Email":"manjunath.reddy@avatu.in","AccountId":"001dN000011ZtlJQAS"}],"contactCount":3,"account":{"Website":"www.apollohospital.com","Type":"Prospect","Phone":"040-23607777","ParentId":"001dN000011aHm4QAE","OwnerId":"005dN00000ASYH7QAP","Name":"Apollo Hospitals Hyderabad","Industry":"Healthcare","Id":"001dN000011ZtlJQAS","Description":"Apollo Hospitals Hyderabad is procuring ICU monitoring equipment, installation, clinical training and a 3-year maintenance contract from GE Healthcare"}},{"contacts":[],"contactCount":0,"account":{"Website":null,"Type":"Competitor","Phone":null,"ParentId":null,"OwnerId":"005dN00000ASYH7QAP","Name":"testing1","Industry":"Education","Id":"001dN000011Z2nRQAS","Description":null}}]}';
@@ -177,9 +174,19 @@
     gs.info('=== Test Complete ===');
 })();
 ]]></script>
-    <sys_name>SFDC Import Pipeline Test</sys_name>
-    <sys_policy/>
-    <time_zone/>
-    <upgrade_safe>false</upgrade_safe>
-  </sysauto_script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:20:48</sys_created_on>
+        <sys_id>8e84da200e6b4ad2ad6acb896de3b40c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFDC Import Pipeline Test</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sysauto_script_8e84da200e6b4ad2ad6acb896de3b40c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:20:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
 </record_update>

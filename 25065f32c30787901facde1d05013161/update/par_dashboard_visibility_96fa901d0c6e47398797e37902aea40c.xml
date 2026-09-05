@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
-  <par_dashboard_visibility action="INSERT_OR_UPDATE">
-    <sys_id>96fa901d0c6e47398797e37902aea40c</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <sys_update_name>par_dashboard_visibility_96fa901d0c6e47398797e37902aea40c</sys_update_name>
-    <dashboard>0419874d863a476ca7ab787ef5e0836b</dashboard>
-    <experience>9b75819c0ac34d53a5c1df829fa82955</experience>
-  </par_dashboard_visibility>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="SF Migration Dashboard">0419874d863a476ca7ab787ef5e0836b</dashboard>
+        <experience display_value="SF Migration">9b75819c0ac34d53a5c1df829fa82955</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:29:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96fa901d0c6e47398797e37902aea40c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>par_dashboard_visibility_96fa901d0c6e47398797e37902aea40c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:29:59</sys_updated_on>
+    </par_dashboard_visibility>
 </record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3fb32bb7724c4b0189cfd6caeeaeb848" extends="sn_opty_mgmt_core_opportunity" label="SF Opportunity" name="x_1775706_salesfor_sf_opty" type="collection"/>
+</database>

@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE">
-    <sys_id>aa2da7a70180435fbabdfec83a1d5840</sys_id>
-    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Run Server Side Script</display_name>
-    <notes/>
-    <order>1</order>
-    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
-    <table/>
-    <test>01792b218a4647c18189c8da26cd5644</test>
-    <timeout/>
-    <warning_message/>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=aa2da7a70180435fbabdfec83a1d5840"/>
-  <sys_variable_value action="INSERT_OR_UPDATE">
-    <sys_id>bbd5250a16f7445297f92caa6c846b9d</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aa2da7a70180435fbabdfec83a1d5840</document_key>
-    <value>3.1</value>
-    <variable>42f2564b73031300440211d8faf6a777</variable>
-    <order>100</order>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE">
-    <sys_id>612212f8b5304bfbb0ab7e3585177410</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aa2da7a70180435fbabdfec83a1d5840</document_key>
-    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:24:10</sys_created_on>
+        <sys_id>aa2da7a70180435fbabdfec83a1d5840</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_atf_step_aa2da7a70180435fbabdfec83a1d5840</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:24:10</sys_updated_on>
+        <table/>
+        <test display_value="SFDC Import Pipeline - E2E Test">01792b218a4647c18189c8da26cd5644</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=aa2da7a70180435fbabdfec83a1d5840"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aa2da7a70180435fbabdfec83a1d5840</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:20</sys_created_on>
+        <sys_id>612212f8b5304bfbb0ab7e3585177410</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:20</sys_updated_on>
+        <value>(function(outputs, steps, params, stepResult, assertEqual) {
     var testAccounts = [
         { Id: '001dN000011ZtlJQAS', Name: 'Apollo Hospitals Hyderabad', Phone: '040-23607777', Website: 'www.apollohospital.com', Type: 'Prospect', Industry: 'Healthcare', Description: 'Apollo Hospitals Hyderabad is procuring ICU monitoring equipment', ParentId: '001dN000011aHm4QAE', OwnerId: '005dN00000ASYH7QAP' },
         { Id: '001dN000011Z2nRQAS', Name: 'testing1', Phone: '', Website: '', Type: 'Competitor', Industry: 'Education', Description: '', ParentId: '', OwnerId: '005dN00000ASYH7QAP' }
@@ -89,77 +102,20 @@
     outputs.acct_import_set_id = importSetId.toString();
     stepResult.setOutputMessage('Staged and transformed 2 accounts successfully');
 })(outputs, steps, params, stepResult, assertEqual);</value>
-    <variable>989d9e235324220002c6435723dc3484</variable>
-    <order>200</order>
-  </sys_variable_value>
-  <sys_element_mapping action="delete_multiple" query="id=aa2da7a70180435fbabdfec83a1d5840"/>
-  <sys_element_mapping action="INSERT_OR_UPDATE">
-    <sys_id>d6f4856699d34cbdbf3c524d00c3acec</sys_id>
-    <field>script</field>
-    <id>aa2da7a70180435fbabdfec83a1d5840</id>
-    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
-    <value>(function(outputs, steps, params, stepResult, assertEqual) {
-    var testAccounts = [
-        { Id: '001dN000011ZtlJQAS', Name: 'Apollo Hospitals Hyderabad', Phone: '040-23607777', Website: 'www.apollohospital.com', Type: 'Prospect', Industry: 'Healthcare', Description: 'Apollo Hospitals Hyderabad is procuring ICU monitoring equipment', ParentId: '001dN000011aHm4QAE', OwnerId: '005dN00000ASYH7QAP' },
-        { Id: '001dN000011Z2nRQAS', Name: 'testing1', Phone: '', Website: '', Type: 'Competitor', Industry: 'Education', Description: '', ParentId: '', OwnerId: '005dN00000ASYH7QAP' }
-    ];
-
-    // Create import set for accounts
-    var importSet = new GlideRecord('sys_import_set');
-    importSet.initialize();
-    importSet.setValue('table_name', 'x_1775706_salesfor_sf_acct_stg');
-    importSet.setValue('state', 'loaded');
-    var importSetId = importSet.insert();
-
-    // Insert staging rows
-    for (var i = 0; i &lt; testAccounts.length; i++) {
-        var acct = testAccounts[i];
-        var row = new GlideRecord('x_1775706_salesfor_sf_acct_stg');
-        row.initialize();
-        row.setValue('sys_import_set', importSetId);
-        row.setValue('sys_import_state', 'pending');
-        row.setValue('u_id', acct.Id);
-        row.setValue('u_name', acct.Name);
-        row.setValue('u_phone', acct.Phone);
-        row.setValue('u_website', acct.Website);
-        row.setValue('u_type', acct.Type);
-        row.setValue('u_industry', acct.Industry);
-        row.setValue('u_description', acct.Description);
-        row.setValue('u_parentid', acct.ParentId);
-        row.setValue('u_ownerid', acct.OwnerId);
-        row.insert();
-    }
-
-    // Run the account transform
-    var isGr = new GlideRecord('sys_import_set');
-    isGr.get(importSetId);
-    var transformer = new GlideImportSetTransformer();
-    transformer.transformAllMaps(isGr);
-
-    // Verify Apollo Hospitals account
-    var apollo = new GlideRecord('x_1775706_salesfor_sf_account');
-    apollo.addQuery('x_1775706_salesf_1_salesforce_id', '001dN000011ZtlJQAS');
-    apollo.query();
-    assertEqual({ name: 'Apollo account created', shouldbe: true, value: apollo.hasNext() });
-    if (apollo.next()) {
-        assertEqual({ name: 'Account name = Apollo Hospitals Hyderabad', shouldbe: 'Apollo Hospitals Hyderabad', value: apollo.getValue('name') });
-        assertEqual({ name: 'Account phone mapped', shouldbe: '040-23607777', value: apollo.getValue('phone') });
-        assertEqual({ name: 'Account website mapped', shouldbe: 'www.apollohospital.com', value: apollo.getValue('website') });
-        assertEqual({ name: 'Account industry lowercased', shouldbe: 'healthcare', value: apollo.getValue('industry') });
-        outputs.apollo_sys_id = apollo.getUniqueValue();
-    }
-
-    // Verify testing1 account
-    var test1 = new GlideRecord('x_1775706_salesfor_sf_account');
-    test1.addQuery('x_1775706_salesf_1_salesforce_id', '001dN000011Z2nRQAS');
-    test1.query();
-    assertEqual({ name: 'testing1 account created', shouldbe: true, value: test1.hasNext() });
-    if (test1.next()) {
-        assertEqual({ name: 'testing1 name mapped', shouldbe: 'testing1', value: test1.getValue('name') });
-    }
-
-    outputs.acct_import_set_id = importSetId.toString();
-    stepResult.setOutputMessage('Staged and transformed 2 accounts successfully');
-})(outputs, steps, params, stepResult, assertEqual);</value>
-  </sys_element_mapping>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aa2da7a70180435fbabdfec83a1d5840</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:20</sys_created_on>
+        <sys_id>bbd5250a16f7445297f92caa6c846b9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:20</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
 </record_update>
