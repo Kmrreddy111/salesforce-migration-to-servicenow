@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+  <oauth_entity action="INSERT_OR_UPDATE">
+    <sys_id>b00de8038a3c4d35a7fcfae2f7991ee8</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>oauth_entity_b00de8038a3c4d35a7fcfae2f7991ee8</sys_update_name>
+    <access_token_lifespan>3600</access_token_lifespan>
+    <active>true</active>
+    <auth_code_lifespan>300</auth_code_lifespan>
+    <auth_url>https://avatupprivatelimited2.my.salesforce.com/services/oauth2/authorize</auth_url>
+    <certificate_url/>
+    <client_id>DUMMY_CLIENT_ID</client_id>
+    <client_secret>DUMMY_CLIENT_SECRET</client_secret>
+    <message_signature_lifespan>600</message_signature_lifespan>
+    <name>SFDC Migration - OAuth 2.0</name>
+    <token_format>opaque</token_format>
+    <token_url>https://avatupprivatelimited2.my.salesforce.com/services/oauth2/token</token_url>
+    <type>client</type>
+  </oauth_entity>
+</record_update>
