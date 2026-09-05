@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_element_mapping">
+  <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_id>dc378757cfdd47d3bc9160dc817d1629</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_element_mapping_dc378757cfdd47d3bc9160dc817d1629</sys_update_name>
+    <field>completion_condition</field>
+    <id>c6905823953f4d578ffe8056bb7b0127</id>
+    <table>var__m_sys_hub_flow_input_e11c763eff50311029c46b6d253bf11c</table>
+    <value/>
+  </sys_element_mapping>
+</record_update>

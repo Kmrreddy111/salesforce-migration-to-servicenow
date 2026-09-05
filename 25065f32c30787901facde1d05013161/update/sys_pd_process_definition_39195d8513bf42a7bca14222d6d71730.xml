@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+  <sys_pd_process_definition action="INSERT_OR_UPDATE">
+    <sys_id>39195d8513bf42a7bca14222d6d71730</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_pd_process_definition_39195d8513bf42a7bca14222d6d71730</sys_update_name>
+    <access>public</access>
+    <active>true</active>
+    <allow_as_nested>false</allow_as_nested>
+    <copied_from/>
+    <copied_from_label/>
+    <data_retention_period_override>6_week</data_retention_period_override>
+    <description/>
+    <designer_state/>
+    <engine_major_version/>
+    <execution_type>record_driven</execution_type>
+    <label>SFDC Import Playbook</label>
+    <name>sfdc_import_playbook</name>
+    <now_assist_kb/>
+    <now_assist_prompt/>
+    <permission>{}</permission>
+    <process_type>52c6d3eeff1be2102c2fffffffffff44</process_type>
+    <public_access>false</public_access>
+    <restartable>RESTARTABLE_FALSE</restartable>
+    <run_on_pad_engine>false</run_on_pad_engine>
+    <run_strategy>run_once</run_strategy>
+    <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+    <schema_version>3</schema_version>
+    <snapshot/>
+    <start_non_blocking>true</start_non_blocking>
+    <status>draft</status>
+    <view_type>DIAGRAM</view_type>
+  </sys_pd_process_definition>
+</record_update>

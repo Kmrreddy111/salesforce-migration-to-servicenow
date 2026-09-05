@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value">
+  <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_id>0721162209ed4f5782757228113630c7</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_variable_value_0721162209ed4f5782757228113630c7</sys_update_name>
+    <document>sys_pd_activity</document>
+    <document_key>12265833ec6745e78b6193dc6c650956</document_key>
+    <value>sys_flow_data</value>
+    <variable>78f334b8c763001085f5532bb4c26009</variable>
+  </sys_variable_value>
+</record_update>

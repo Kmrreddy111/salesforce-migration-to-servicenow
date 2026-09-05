@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity">
+  <sys_pd_activity action="INSERT_OR_UPDATE">
+    <sys_id>12265833ec6745e78b6193dc6c650956</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_pd_activity_12265833ec6745e78b6193dc6c650956</sys_update_name>
+    <active>true</active>
+    <activity_definition>b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+    <ai_agent_execution_mode/>
+    <ai_agent_obj_additional_detail/>
+    <ai_agent_objective/>
+    <ai_agent_run_as>playbook_user</ai_agent_run_as>
+    <ai_agent_run_with_roles/>
+    <ai_agent_user/>
+    <condition_to_run/>
+    <conversational_agents/>
+    <description/>
+    <enable_ai_agent/>
+    <label>Import Submitted</label>
+    <lane>ae8baa35070e483fa9c6cbfab641a287</lane>
+    <launch_agent_when_activity_start/>
+    <name>import_submitted</name>
+    <order>1</order>
+    <process_definition>39195d8513bf42a7bca14222d6d71730</process_definition>
+    <restart_rule>RUN_ONLY_ONCE</restart_rule>
+    <start_rule_name>immediate</start_rule_name>
+    <starts_after_activities/>
+    <starts_after_branches/>
+    <starts_after_lanes/>
+  </sys_pd_activity>
+</record_update>

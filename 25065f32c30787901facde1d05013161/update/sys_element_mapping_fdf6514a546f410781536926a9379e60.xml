@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_element_mapping">
+  <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_id>fdf6514a546f410781536926a9379e60</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_element_mapping_fdf6514a546f410781536926a9379e60</sys_update_name>
+    <field>parent_record</field>
+    <id>785c19c692a348fbad69018aae8dbbed</id>
+    <table>var__m_sys_pd_process_input_39195d8513bf42a7bca14222d6d71730</table>
+    <value>{{triggerRecord}}</value>
+  </sys_element_mapping>
+</record_update>

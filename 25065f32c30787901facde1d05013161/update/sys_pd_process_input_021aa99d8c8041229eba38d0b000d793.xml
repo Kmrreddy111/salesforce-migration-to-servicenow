@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_input">
+  <sys_pd_process_input action="INSERT_OR_UPDATE">
+    <sys_id>021aa99d8c8041229eba38d0b000d793</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_pd_process_input_021aa99d8c8041229eba38d0b000d793</sys_update_name>
+    <active>true</active>
+    <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+    <column_label>Record</column_label>
+    <default_value/>
+    <element>record</element>
+    <hint/>
+    <internal_type>reference</internal_type>
+    <label>Record</label>
+    <mandatory>true</mandatory>
+    <max_length>32</max_length>
+    <model>39195d8513bf42a7bca14222d6d71730</model>
+    <model_id>39195d8513bf42a7bca14222d6d71730</model_id>
+    <model_table/>
+    <name>var__m_sys_pd_process_input_39195d8513bf42a7bca14222d6d71730</name>
+    <order>100</order>
+    <reference>x_1775706_salesfor_sf_import_req</reference>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual_type>script</virtual_type>
+  </sys_pd_process_input>
+</record_update>

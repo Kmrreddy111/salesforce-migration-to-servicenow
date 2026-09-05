@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_variable_value">
+  <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_id>1f76d7f07ead442ca6fac416810bf85a</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_variable_value_1f76d7f07ead442ca6fac416810bf85a</sys_update_name>
+    <document>sys_pd_activity</document>
+    <document_key>c6905823953f4d578ffe8056bb7b0127</document_key>
+    <value>0</value>
+    <variable>63fd1eeac7e60010bfbaf89f51c26059</variable>
+  </sys_variable_value>
+</record_update>
