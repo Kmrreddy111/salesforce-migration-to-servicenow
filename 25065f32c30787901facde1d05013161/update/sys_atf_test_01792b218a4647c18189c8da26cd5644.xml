@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE">
+    <sys_id>01792b218a4647c18189c8da26cd5644</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_atf_test_01792b218a4647c18189c8da26cd5644</sys_update_name>
+    <active>true</active>
+    <description>Tests the full SFDC import pipeline: inserts 2 accounts and 3 contacts into staging tables, runs transforms in order (accounts first), and verifies records are created in sf_account and sf_contact with correct field mappings, industry conversion, and account reference resolution.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>SFDC Import Pipeline - E2E Test</name>
+  </sys_atf_test>
+</record_update>

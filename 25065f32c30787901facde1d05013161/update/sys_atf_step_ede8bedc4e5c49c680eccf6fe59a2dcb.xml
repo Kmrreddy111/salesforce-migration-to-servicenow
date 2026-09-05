@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE">
+    <sys_id>ede8bedc4e5c49c680eccf6fe59a2dcb</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Run Server Side Script</display_name>
+    <notes/>
+    <order>2</order>
+    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
+    <table/>
+    <test>01792b218a4647c18189c8da26cd5644</test>
+    <timeout/>
+    <warning_message/>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=ede8bedc4e5c49c680eccf6fe59a2dcb"/>
+  <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_id>0bb9fbde598948a2866593f257cf6b75</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ede8bedc4e5c49c680eccf6fe59a2dcb</document_key>
+    <value>3.1</value>
+    <variable>42f2564b73031300440211d8faf6a777</variable>
+    <order>100</order>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_id>5991e4b6076e45ed9d2c508187a6bce6</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>ede8bedc4e5c49c680eccf6fe59a2dcb</document_key>
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+    var testContacts = [
+        { Id: '003dN00000UxZ25QAF', FirstName: 'RAYAN', LastName: 'FAIZ', Name: 'RAYAN FAIZ', Email: 'rayan.faiz@avatu.in', Phone: '9000000001', Title: 'Purchase Manager', AccountId: '001dN000011ZtlJQAS' },
+        { Id: '003dN00000UxZYLQA3', FirstName: 'Sneha', LastName: 'Mallavelli', Name: 'Sneha Mallavelli', Email: 'snehamallavelli123@gmail.com', Phone: '9000000003', Title: 'ICU Head', AccountId: '001dN000011ZtlJQAS' },
+        { Id: '003dN00000UxZQHQA3', FirstName: 'Manjunath', LastName: 'Reddy', Name: 'Manjunath Reddy', Email: 'manjunath.reddy@avatu.in', Phone: '9000000002', Title: 'Finance Approver', AccountId: '001dN000011ZtlJQAS' }
+    ];
+
+    // Create import set for contacts
+    var importSet = new GlideRecord('sys_import_set');
+    importSet.initialize();
+    importSet.setValue('table_name', 'x_1775706_salesfor_sf_ctct_stg');
+    importSet.setValue('state', 'loaded');
+    var importSetId = importSet.insert();
+
+    // Insert staging rows
+    for (var i = 0; i &lt; testContacts.length; i++) {
+        var ctct = testContacts[i];
+        var row = new GlideRecord('x_1775706_salesfor_sf_ctct_stg');
+        row.initialize();
+        row.setValue('sys_import_set', importSetId);
+        row.setValue('sys_import_state', 'pending');
+        row.setValue('u_id', ctct.Id);
+        row.setValue('u_firstname', ctct.FirstName);
+        row.setValue('u_lastname', ctct.LastName);
+        row.setValue('u_name', ctct.Name);
+        row.setValue('u_email', ctct.Email);
+        row.setValue('u_phone', ctct.Phone);
+        row.setValue('u_title', ctct.Title);
+        row.setValue('u_accountid', ctct.AccountId);
+        row.insert();
+    }
+
+    // Run the contact transform
+    var isGr = new GlideRecord('sys_import_set');
+    isGr.get(importSetId);
+    var transformer = new GlideImportSetTransformer();
+    transformer.transformAllMaps(isGr);
+
+    // Verify RAYAN FAIZ contact
+    var rayan = new GlideRecord('x_1775706_salesfor_sf_contact');
+    rayan.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZ25QAF');
+    rayan.query();
+    assertEqual({ name: 'RAYAN FAIZ contact created', shouldbe: true, value: rayan.hasNext() });
+    if (rayan.next()) {
+        assertEqual({ name: 'First name = RAYAN', shouldbe: 'RAYAN', value: rayan.getValue('first_name') });
+        assertEqual({ name: 'Last name = FAIZ', shouldbe: 'FAIZ', value: rayan.getValue('last_name') });
+        assertEqual({ name: 'Email mapped', shouldbe: 'rayan.faiz@avatu.in', value: rayan.getValue('email') });
+        assertEqual({ name: 'Title = Purchase Manager', shouldbe: 'Purchase Manager', value: rayan.getValue('title') });
+        // Verify account reference resolved
+        var acctRef = rayan.getValue('account');
+        assertEqual({ name: 'Contact has account reference', shouldbe: true, value: (acctRef !== '' &amp;&amp; acctRef !== null) });
+    }
+
+    // Verify all 3 contacts imported
+    var countGr = new GlideRecord('x_1775706_salesfor_sf_contact');
+    countGr.addQuery('x_1775706_salesf_1_salesforce_idSTARTSWITH003dN000');
+    countGr.query();
+    var importedCount = countGr.getRowCount();
+    assertEqual({ name: 'All 3 contacts imported', shouldbe: 3, value: importedCount });
+
+    // Verify Sneha
+    var sneha = new GlideRecord('x_1775706_salesfor_sf_contact');
+    sneha.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZYLQA3');
+    sneha.query();
+    assertEqual({ name: 'Sneha Mallavelli contact created', shouldbe: true, value: sneha.hasNext() });
+
+    // Verify Manjunath
+    var manjunath = new GlideRecord('x_1775706_salesfor_sf_contact');
+    manjunath.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZQHQA3');
+    manjunath.query();
+    assertEqual({ name: 'Manjunath Reddy contact created', shouldbe: true, value: manjunath.hasNext() });
+
+    outputs.ctct_import_set_id = importSetId.toString();
+    stepResult.setOutputMessage('Staged and transformed 3 contacts. All linked to Apollo account.');
+})(outputs, steps, params, stepResult, assertEqual);</value>
+    <variable>989d9e235324220002c6435723dc3484</variable>
+    <order>200</order>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=ede8bedc4e5c49c680eccf6fe59a2dcb"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_id>2e4b879279804a40be45229f710fde7b</sys_id>
+    <field>script</field>
+    <id>ede8bedc4e5c49c680eccf6fe59a2dcb</id>
+    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+    var testContacts = [
+        { Id: '003dN00000UxZ25QAF', FirstName: 'RAYAN', LastName: 'FAIZ', Name: 'RAYAN FAIZ', Email: 'rayan.faiz@avatu.in', Phone: '9000000001', Title: 'Purchase Manager', AccountId: '001dN000011ZtlJQAS' },
+        { Id: '003dN00000UxZYLQA3', FirstName: 'Sneha', LastName: 'Mallavelli', Name: 'Sneha Mallavelli', Email: 'snehamallavelli123@gmail.com', Phone: '9000000003', Title: 'ICU Head', AccountId: '001dN000011ZtlJQAS' },
+        { Id: '003dN00000UxZQHQA3', FirstName: 'Manjunath', LastName: 'Reddy', Name: 'Manjunath Reddy', Email: 'manjunath.reddy@avatu.in', Phone: '9000000002', Title: 'Finance Approver', AccountId: '001dN000011ZtlJQAS' }
+    ];
+
+    // Create import set for contacts
+    var importSet = new GlideRecord('sys_import_set');
+    importSet.initialize();
+    importSet.setValue('table_name', 'x_1775706_salesfor_sf_ctct_stg');
+    importSet.setValue('state', 'loaded');
+    var importSetId = importSet.insert();
+
+    // Insert staging rows
+    for (var i = 0; i &lt; testContacts.length; i++) {
+        var ctct = testContacts[i];
+        var row = new GlideRecord('x_1775706_salesfor_sf_ctct_stg');
+        row.initialize();
+        row.setValue('sys_import_set', importSetId);
+        row.setValue('sys_import_state', 'pending');
+        row.setValue('u_id', ctct.Id);
+        row.setValue('u_firstname', ctct.FirstName);
+        row.setValue('u_lastname', ctct.LastName);
+        row.setValue('u_name', ctct.Name);
+        row.setValue('u_email', ctct.Email);
+        row.setValue('u_phone', ctct.Phone);
+        row.setValue('u_title', ctct.Title);
+        row.setValue('u_accountid', ctct.AccountId);
+        row.insert();
+    }
+
+    // Run the contact transform
+    var isGr = new GlideRecord('sys_import_set');
+    isGr.get(importSetId);
+    var transformer = new GlideImportSetTransformer();
+    transformer.transformAllMaps(isGr);
+
+    // Verify RAYAN FAIZ contact
+    var rayan = new GlideRecord('x_1775706_salesfor_sf_contact');
+    rayan.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZ25QAF');
+    rayan.query();
+    assertEqual({ name: 'RAYAN FAIZ contact created', shouldbe: true, value: rayan.hasNext() });
+    if (rayan.next()) {
+        assertEqual({ name: 'First name = RAYAN', shouldbe: 'RAYAN', value: rayan.getValue('first_name') });
+        assertEqual({ name: 'Last name = FAIZ', shouldbe: 'FAIZ', value: rayan.getValue('last_name') });
+        assertEqual({ name: 'Email mapped', shouldbe: 'rayan.faiz@avatu.in', value: rayan.getValue('email') });
+        assertEqual({ name: 'Title = Purchase Manager', shouldbe: 'Purchase Manager', value: rayan.getValue('title') });
+        // Verify account reference resolved
+        var acctRef = rayan.getValue('account');
+        assertEqual({ name: 'Contact has account reference', shouldbe: true, value: (acctRef !== '' &amp;&amp; acctRef !== null) });
+    }
+
+    // Verify all 3 contacts imported
+    var countGr = new GlideRecord('x_1775706_salesfor_sf_contact');
+    countGr.addQuery('x_1775706_salesf_1_salesforce_idSTARTSWITH003dN000');
+    countGr.query();
+    var importedCount = countGr.getRowCount();
+    assertEqual({ name: 'All 3 contacts imported', shouldbe: 3, value: importedCount });
+
+    // Verify Sneha
+    var sneha = new GlideRecord('x_1775706_salesfor_sf_contact');
+    sneha.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZYLQA3');
+    sneha.query();
+    assertEqual({ name: 'Sneha Mallavelli contact created', shouldbe: true, value: sneha.hasNext() });
+
+    // Verify Manjunath
+    var manjunath = new GlideRecord('x_1775706_salesfor_sf_contact');
+    manjunath.addQuery('x_1775706_salesf_1_salesforce_id', '003dN00000UxZQHQA3');
+    manjunath.query();
+    assertEqual({ name: 'Manjunath Reddy contact created', shouldbe: true, value: manjunath.hasNext() });
+
+    outputs.ctct_import_set_id = importSetId.toString();
+    stepResult.setOutputMessage('Staged and transformed 3 contacts. All linked to Apollo account.');
+})(outputs, steps, params, stepResult, assertEqual);</value>
+  </sys_element_mapping>
+</record_update>
