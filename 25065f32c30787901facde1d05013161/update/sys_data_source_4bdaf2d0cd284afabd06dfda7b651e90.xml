@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+  <sys_data_source action="INSERT_OR_UPDATE">
+    <sys_id>4bdaf2d0cd284afabd06dfda7b651e90</sys_id>
+    <sys_scope display_value="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_scope>
+    <sys_update_name>sys_data_source_4bdaf2d0cd284afabd06dfda7b651e90</sys_update_name>
+    <batch_size>500</batch_size>
+    <file_retrieval_method>Attachment</file_retrieval_method>
+    <format>JSON</format>
+    <import_set_table_label>SF Contact Import Staging</import_set_table_label>
+    <import_set_table_name>x_1775706_salesfor_sf_ctct_stg</import_set_table_name>
+    <jpath_root_node>$.accounts[*].contacts[*]</jpath_root_node>
+    <name>SFDC Migration - Contact Data Source</name>
+    <type>File</type>
+  </sys_data_source>
+</record_update>
