@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="885e525073324ed7aed5d07593bd5256" sys_domain="global" table="x_1775706_salesfor_sf_opty_li" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eadd993f1220478280845dec60b2504b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1775706_salesfor_sf_opty_li" name="x_1775706_salesfor_sf_opty_li" sys_domain="global" view="Default view">885e525073324ed7aed5d07593bd5256</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_1775706_salesfor_sf_opty_li" sys_domain="global" view="Default view">53420950cb084672a1532cbd3555465e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 14:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f7db26f375c42dc986b80c1ff29b4bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1775706_salesfor_sf_opty_li" name="x_1775706_salesfor_sf_opty_li" sys_domain="global" view="Default view">885e525073324ed7aed5d07593bd5256</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1775706_salesfor_sf_opty_li" sys_domain="global" view="Default view">e378e29f0bc7444abc18c5fa72c533d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 14:37:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1775706_salesfor_sf_opty_li</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-05 11:30:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885e525073324ed7aed5d07593bd5256</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1775706_salesfor_sf_opty_li</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+            <sys_update_name>sys_ui_form_sections_885e525073324ed7aed5d07593bd5256</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-05 11:30:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

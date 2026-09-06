@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a0f7663a10c4c418e08a4313607fb1d" extends="sys_import_set_row" label="SF Contact Import Staging" name="x_1775706_salesfor_sf_ctct_stg" type="collection">
+        <element label="Salesforce ID" max_length="40" name="u_id" type="string"/>
+        <element label="Last Name" max_length="100" name="u_lastname" type="string"/>
+        <element label="Title" max_length="100" name="u_title" type="string"/>
+        <element label="Email" max_length="100" name="u_email" type="string"/>
+        <element label="Account ID" max_length="40" name="u_accountid" type="string"/>
+        <element label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element label="First Name" max_length="100" name="u_firstname" type="string"/>
+        <element label="Full Name" max_length="255" name="u_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,3272 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>-1</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>sfdc_import_action</internal_name>
+        <label_cache>[{"name":"{{action.importRequest}}","label":"action➛Import Request","type":"action","ref":"x_1775706_salesfor_sf_import_req","reference_display":"Import Request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].__step_status__}}","label":"step➛Run SFDC Import➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].success}}","label":"step➛Run SFDC Import➛Success","type":"step","ref":"","reference_display":"Success","base_type":"boolean","parent_table_name":"","column_name":"success","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].accountsImported}}","label":"step➛Run SFDC Import➛AccountsImported","type":"step","ref":"","reference_display":"AccountsImported","base_type":"integer","parent_table_name":"","column_name":"accountsImported","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].contactsImported}}","label":"step➛Run SFDC Import➛ContactsImported","type":"step","ref":"","reference_display":"ContactsImported","base_type":"integer","parent_table_name":"","column_name":"contactsImported","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].errorMessage}}","label":"step➛Run SFDC Import➛ErrorMessage","type":"step","ref":"","reference_display":"ErrorMessage","base_type":"string","parent_table_name":"","column_name":"errorMessage","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>750fb2c3c38bcb901facde1d05013116</master_snapshot>
+        <master_snapshot_digest/>
+        <name>SFDC Import Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1882c711a32a49d3a05ab904654ca903</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>SFDC Import Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1882c711a32a49d3a05ab904654ca903</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1882c711a32a49d3a05ab904654ca903"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1882c711a32a49d3a05ab904654ca903"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>1882c711a32a49d3a05ab904654ca903</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>1ec9c3cbc38fcb901facde1d050131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <value/>
+        <variable display_value="Contacts Imported">e59bfd4a26414718a7a6d49d3d875c5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>1882c711a32a49d3a05ab904654ca903</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>52c9c3cbc38fcb901facde1d050131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">fc667baf719249b781f92dc21cefca19</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>1882c711a32a49d3a05ab904654ca903</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>d6c9c3cbc38fcb901facde1d050131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <value/>
+        <variable display_value="Accounts Imported">ab7722f362c5480bb4e611e1fcb9eb87</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1882c711a32a49d3a05ab904654ca903"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>accountsImported</field>
+        <id>1882c711a32a49d3a05ab904654ca903</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>daa3dcdd42534f4d86fd7bf4c184d28f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].accountsImported}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>contactsImported</field>
+        <id>1882c711a32a49d3a05ab904654ca903</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>ebeb3750e5f74180ae3a45f5aa2edd8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].contactsImported}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorMessage</field>
+        <id>1882c711a32a49d3a05ab904654ca903</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>2ac002710ee1468a8a203f3ba29c72d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].errorMessage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>1882c711a32a49d3a05ab904654ca903</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>05a88a8fe7ad4e07b1e50c5eee0164a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].success}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>1882c711a32a49d3a05ab904654ca903</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>16c9c3cbc38fcb901facde1d050131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1882c711a32a49d3a05ab904654ca903^sys_idNOT INb738a6b7c43949779346b57cd0135c43"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</action>
+        <cid>b738a6b7-c439-4977-9346-b57cd0135c43</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Run SFDC Import</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>b738a6b7c43949779346b57cd0135c43</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b738a6b7c43949779346b57cd0135c43</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>22c150ed4db24d72bd9afb498c43b617</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    try {
+        // Step 0: Look up the import request record to get parameters
+        var reqGr = new GlideRecord('x_1775706_salesfor_sf_import_req');
+        if (!reqGr.get(inputs.requestSysId)) {
+            outputs.success = false;
+            outputs.errorMessage = 'Import request record not found: ' + inputs.requestSysId;
+            outputs.accountsImported = 0;
+            outputs.contactsImported = 0;
+            return;
+        }
+
+        var account = reqGr.getValue('account_name') || '';
+        var includeContacts = reqGr.getValue('include_contacts') == '1' || reqGr.getValue('include_contacts') == 'true';
+
+        // Step 1: Call SFDC REST API
+        var r = new sn_ws.RESTMessageV2('SFDC Migration - Salesforce API', 'SFDC Migration - Get API Test');
+        var endpoint = r.getEndpoint();
+        endpoint += '?account=' + encodeURIComponent(account) + '&amp;includeContacts=' + encodeURIComponent(includeContacts);
+        r.setEndpoint(endpoint);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        // Step 2: Parse JSON response
+        var data = JSON.parse(responseBody);
+
+        if (data.status !== 'success') {
+            outputs.success = false;
+            outputs.errorMessage = 'API returned status: ' + (data.status || 'unknown') + '. HTTP: ' + httpStatus;
+            outputs.accountsImported = 0;
+            outputs.contactsImported = 0;
+            return;
+        }
+
+        var accounts = data.accounts || [];
+        var accountCount = 0;
+        var contactCount = 0;
+
+        // Step 3: Create import set for accounts
+        var acctImportSet = new GlideRecord('sys_import_set');
+        acctImportSet.initialize();
+        acctImportSet.setValue('table_name', 'x_1775706_salesfor_sf_acct_stg');
+        acctImportSet.setValue('state', 'loaded');
+        var acctImportSetId = acctImportSet.insert();
+
+        // Step 4: Insert account staging rows
+        for (var i = 0; i &lt; accounts.length; i++) {
+            var acctData = accounts[i].account;
+            if (acctData) {
+                var stgRow = new GlideRecord('x_1775706_salesfor_sf_acct_stg');
+                stgRow.initialize();
+                stgRow.setValue('sys_import_set', acctImportSetId);
+                stgRow.setValue('sys_import_state', 'pending');
+                for (var key in acctData) {
+                    if (acctData.hasOwnProperty(key) &amp;&amp; acctData[key] !== null) {
+                        stgRow.setValue('u_' + key.toLowerCase(), acctData[key]);
+                    }
+                }
+                stgRow.insert();
+                accountCount++;
+            }
+        }
+
+        // Step 5: Run account transform
+        var acctIsGr = new GlideRecord('sys_import_set');
+        acctIsGr.get(acctImportSetId);
+        var acctTransformer = new GlideImportSetTransformer();
+        acctTransformer.transformAllMaps(acctIsGr);
+
+        // Step 6: Import contacts if requested
+        if (includeContacts) {
+            var ctctImportSet = new GlideRecord('sys_import_set');
+            ctctImportSet.initialize();
+            ctctImportSet.setValue('table_name', 'x_1775706_salesfor_sf_ctct_stg');
+            ctctImportSet.setValue('state', 'loaded');
+            var ctctImportSetId = ctctImportSet.insert();
+
+            for (var j = 0; j &lt; accounts.length; j++) {
+                var contacts = accounts[j].contacts || [];
+                for (var k = 0; k &lt; contacts.length; k++) {
+                    var ctctData = contacts[k];
+                    var ctctRow = new GlideRecord('x_1775706_salesfor_sf_ctct_stg');
+                    ctctRow.initialize();
+                    ctctRow.setValue('sys_import_set', ctctImportSetId);
+                    ctctRow.setValue('sys_import_state', 'pending');
+                    for (var cKey in ctctData) {
+                        if (ctctData.hasOwnProperty(cKey) &amp;&amp; ctctData[cKey] !== null) {
+                            ctctRow.setValue('u_' + cKey.toLowerCase(), ctctData[cKey]);
+                        }
+                    }
+                    ctctRow.insert();
+                    contactCount++;
+                }
+            }
+
+            // Step 7: Run contact transform
+            var ctctIsGr = new GlideRecord('sys_import_set');
+            ctctIsGr.get(ctctImportSetId);
+            var ctctTransformer = new GlideImportSetTransformer();
+            ctctTransformer.transformAllMaps(ctctIsGr);
+        }
+
+        // Step 8: Set output variables
+        outputs.success = true;
+        outputs.accountsImported = accountCount;
+        outputs.contactsImported = contactCount;
+        outputs.errorMessage = '';
+
+    } catch (ex) {
+        outputs.success = false;
+        outputs.errorMessage = 'Error: ' + ex.message;
+        outputs.accountsImported = 0;
+        outputs.contactsImported = 0;
+    }
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b738a6b7c43949779346b57cd0135c43</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>d2c9c3cbc38fcb901facde1d05013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b738a6b7c43949779346b57cd0135c43</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>d422c24c7a084a60983072952b98e633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <value>instance</value>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b738a6b7c43949779346b57cd0135c43</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>dac9c3cbc38fcb901facde1d0501315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestSysId</field>
+        <id>b738a6b7c43949779346b57cd0135c43</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>258fdfbc839d45c7be5993051d12486e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:42</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b738a6b7c43949779346b57cd0135c43</table>
+        <value>{{action.importRequest}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b738a6b7c43949779346b57cd0135c43</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>12c9c3cbc38fcb901facde1d05013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43^id=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b738a6b7c43949779346b57cd0135c43^sys_idNOT IN0e2c46b7bbf64acc8da1fe4df4f1482a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requestSysId</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Run SFDC Import">b738a6b7c43949779346b57cd0135c43</model>
+        <model_id>b738a6b7c43949779346b57cd0135c43</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b738a6b7c43949779346b57cd0135c43</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:42</sys_created_on>
+        <sys_id>0e2c46b7bbf64acc8da1fe4df4f1482a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b738a6b7c43949779346b57cd0135c43^sys_idNOT IN11793d97cf3d4f2586f69ce527a77f25,12f27128996f48d6acccbeb265704add,731628b2d0d4446694f8c1b1e7e325df,b3c81f634d86470f9ca0945c79382743"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=85a6529e-0dc2-4cb1-b53c-dfe9deefc8be</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>accountsImported</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>accountsImported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">b738a6b7c43949779346b57cd0135c43</model>
+        <model_id>b738a6b7c43949779346b57cd0135c43</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>11793d97cf3d4f2586f69ce527a77f25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=75972916-9164-4f5b-ae0c-6fc446cd1828</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">b738a6b7c43949779346b57cd0135c43</model>
+        <model_id>b738a6b7c43949779346b57cd0135c43</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>12f27128996f48d6acccbeb265704add</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=14159a47-e797-45b0-b7f3-2804d5a0c87d</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>contactsImported</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>contactsImported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">b738a6b7c43949779346b57cd0135c43</model>
+        <model_id>b738a6b7c43949779346b57cd0135c43</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>731628b2d0d4446694f8c1b1e7e325df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=947254da-20fc-44b5-8011-01c1769f5407</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorMessage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>errorMessage</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Run SFDC Import">b738a6b7c43949779346b57cd0135c43</model>
+        <model_id>b738a6b7c43949779346b57cd0135c43</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>b3c81f634d86470f9ca0945c79382743</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b738a6b7c43949779346b57cd0135c43"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>contactsImported</element>
+        <help/>
+        <hint/>
+        <label>contactsImported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:02</sys_created_on>
+        <sys_id>02c983cbc38fcb901facde1d050131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>1ac983cbc38fcb901facde1d050131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorMessage</element>
+        <help/>
+        <hint/>
+        <label>errorMessage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:02</sys_created_on>
+        <sys_id>8ac983cbc38fcb901facde1d050131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>accountsImported</element>
+        <help/>
+        <hint/>
+        <label>accountsImported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b738a6b7c43949779346b57cd0135c43</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>92c983cbc38fcb901facde1d050131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=1882c711a32a49d3a05ab904654ca903^sys_idNOT INcd4f7d05ef254074ae4782702e7f7217"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=8000,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ca6e1897-0e1a-4fa6-99f7-9f4d06e67236</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>importRequest</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Import Request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_1775706_salesfor_sf_import_req">x_1775706_salesfor_sf_import_req</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>cd4f7d05ef254074ae4782702e7f7217</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd4f7d05ef254074ae4782702e7f7217"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1882c711a32a49d3a05ab904654ca903^sys_idNOT IN127480702f5c455290ed5e238e8b1a8f,85514f974b6944148dbc0f6e8367a0dc,ab7722f362c5480bb4e611e1fcb9eb87,e59bfd4a26414718a7a6d49d3d875c5e,f1fa81f4e6744ba7a2d1a80ec1eae4c0,fc667baf719249b781f92dc21cefca19"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=1882c711a32a49d3a05ab904654ca903-success</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>127480702f5c455290ed5e238e8b1a8f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=127480702f5c455290ed5e238e8b1a8f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=127480702f5c455290ed5e238e8b1a8f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=1882c711a32a49d3a05ab904654ca903-errorMessage</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorMessage</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Message</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>85514f974b6944148dbc0f6e8367a0dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=85514f974b6944148dbc0f6e8367a0dc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=85514f974b6944148dbc0f6e8367a0dc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=1882c711a32a49d3a05ab904654ca903-accountsImported</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>accountsImported</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Accounts Imported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>ab7722f362c5480bb4e611e1fcb9eb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab7722f362c5480bb4e611e1fcb9eb87"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab7722f362c5480bb4e611e1fcb9eb87"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=1882c711a32a49d3a05ab904654ca903-contactsImported</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>contactsImported</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Contacts Imported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>e59bfd4a26414718a7a6d49d3d875c5e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e59bfd4a26414718a7a6d49d3d875c5e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e59bfd4a26414718a7a6d49d3d875c5e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=1882c711a32a49d3a05ab904654ca903-action-error,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>f1fa81f4e6744ba7a2d1a80ec1eae4c0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1fa81f4e6744ba7a2d1a80ec1eae4c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1fa81f4e6744ba7a2d1a80ec1eae4c0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1882c711a32a49d3a05ab904654ca903-action-status</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</model>
+        <model_id>1882c711a32a49d3a05ab904654ca903</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>fc667baf719249b781f92dc21cefca19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc667baf719249b781f92dc21cefca19"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc667baf719249b781f92dc21cefca19"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1882c711a32a49d3a05ab904654ca903"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1882c711a32a49d3a05ab904654ca903^sys_idNOT IN5ac9c3cbc38fcb901facde1d050131e4"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:44:03</sys_created_on>
+        <sys_id>5ac9c3cbc38fcb901facde1d050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:44:03</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5ac9c3cbc38fcb901facde1d050131e4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>importRequest</element>
+        <help/>
+        <hint/>
+        <label>Import Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Import Requests</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>77407e9430074c52988e64f61129f8cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1882c711a32a49d3a05ab904654ca903"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Don't Treat as Errors</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>2d1e01027ddd43e980711413ac01eae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>contactsImported</element>
+        <help/>
+        <hint/>
+        <label>Contacts Imported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Contacts Imported</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>33eef84fa56f4970910c9497bd13c001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Action Status</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>36fcc1e54a0c4d42a331f0545d158cb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Success</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>6ffb2f8d9f5147cbb3eafc4879d31236</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorMessage</element>
+        <help/>
+        <hint/>
+        <label>Error Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Error Messages</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>9c19dfca63624495b755b892a846f033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>accountsImported</element>
+        <help/>
+        <hint/>
+        <label>Accounts Imported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903</name>
+        <plural>Accounts Imported</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:56:43</sys_created_on>
+        <sys_id>a4ba1c71bbaa45f3bbdc56d9c9e7f873</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:56:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1882c711a32a49d3a05ab904654ca903"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=1882c711a32a49d3a05ab904654ca903^sys_idNOT IN5a0f36c3c38bcb901facde1d050131b9"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</action_id>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_hub_action_plan","id":"5a0f36c3c38bcb901facde1d050131b9","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <snapshot>2446930bc3830f901facde1d050131a4</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a0f36c3c38bcb901facde1d050131b9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>-1</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>sfdc_import_action</internal_name>
+        <label_cache>[{"name":"{{action.importRequest}}","label":"action➛Import Request","type":"action","ref":"x_1775706_salesfor_sf_import_req","reference_display":"Import Request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].__step_status__}}","label":"step➛Run SFDC Import➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].success}}","label":"step➛Run SFDC Import➛Success","type":"step","ref":"","reference_display":"Success","base_type":"boolean","parent_table_name":"","column_name":"success","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].accountsImported}}","label":"step➛Run SFDC Import➛AccountsImported","type":"step","ref":"","reference_display":"AccountsImported","base_type":"integer","parent_table_name":"","column_name":"accountsImported","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].contactsImported}}","label":"step➛Run SFDC Import➛ContactsImported","type":"step","ref":"","reference_display":"ContactsImported","base_type":"integer","parent_table_name":"","column_name":"contactsImported","choices":null,"attributes":{}},{"name":"{{step[b738a6b7-c439-4977-9346-b57cd0135c43].errorMessage}}","label":"step➛Run SFDC Import➛ErrorMessage","type":"step","ref":"","reference_display":"ErrorMessage","base_type":"string","parent_table_name":"","column_name":"errorMessage","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>SFDC Import Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="SFDC Import Action">1882c711a32a49d3a05ab904654ca903</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>750fb2c3c38bcb901facde1d05013116</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=750fb2c3c38bcb901facde1d05013116"/>
+    <sys_variable_value action="delete_multiple" query="document_key=750fb2c3c38bcb901facde1d05013116"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>750fb2c3c38bcb901facde1d05013116</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>28688bc3c38fcb901facde1d0501317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <value/>
+        <variable display_value="Accounts Imported">1a0ff2c3c38bcb901facde1d050131f9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>750fb2c3c38bcb901facde1d05013116</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>6c688bc3c38fcb901facde1d0501317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <value/>
+        <variable display_value="Contacts Imported">560f36c3c38bcb901facde1d0501314a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>750fb2c3c38bcb901facde1d05013116</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>a0688bc3c38fcb901facde1d05013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">820ff2c3c38bcb901facde1d050131f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=750fb2c3c38bcb901facde1d05013116"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>accountsImported</field>
+        <id>750fb2c3c38bcb901facde1d05013116</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>9e0f36c3c38bcb901facde1d0501316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].accountsImported}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>contactsImported</field>
+        <id>750fb2c3c38bcb901facde1d05013116</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>5a0f36c3c38bcb901facde1d0501316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].contactsImported}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorMessage</field>
+        <id>750fb2c3c38bcb901facde1d05013116</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>160f36c3c38bcb901facde1d0501316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].errorMessage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>success</field>
+        <id>750fb2c3c38bcb901facde1d05013116</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>520f36c3c38bcb901facde1d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</table>
+        <value>{{step[b738a6b7-c439-4977-9346-b57cd0135c43].success}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>750fb2c3c38bcb901facde1d05013116</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>960f36c3c38bcb901facde1d05013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=750fb2c3c38bcb901facde1d05013116^sys_idNOT INd8684bc3c38fcb901facde1d050131ad"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</action>
+        <cid>b738a6b7-c439-4977-9346-b57cd0135c43</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Run SFDC Import</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>d8684bc3c38fcb901facde1d050131ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8684bc3c38fcb901facde1d050131ad</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 15:38:32</sys_created_on>
+        <sys_id>1046930bc3830f901facde1d0501314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8684bc3c38fcb901facde1d050131ad</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>6c688bc3c38fcb901facde1d05013120</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    try {
+        // Step 0: Look up the import request record to get parameters
+        var reqGr = new GlideRecord('x_1775706_salesfor_sf_import_req');
+        if (!reqGr.get(inputs.requestSysId)) {
+            outputs.success = false;
+            outputs.errorMessage = 'Import request record not found: ' + inputs.requestSysId;
+            outputs.accountsImported = 0;
+            outputs.contactsImported = 0;
+            return;
+        }
+
+        var account = reqGr.getValue('account_name') || '';
+        var includeContacts = reqGr.getValue('include_contacts') == '1' || reqGr.getValue('include_contacts') == 'true';
+
+        // Step 1: Call SFDC REST API
+        var r = new sn_ws.RESTMessageV2('SFDC Migration - Salesforce API', 'SFDC Migration - Get API Test');
+        var endpoint = r.getEndpoint();
+        endpoint += '?account=' + encodeURIComponent(account) + '&amp;includeContacts=' + encodeURIComponent(includeContacts);
+        r.setEndpoint(endpoint);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        // Step 2: Parse JSON response
+        var data = JSON.parse(responseBody);
+
+        if (data.status !== 'success') {
+            outputs.success = false;
+            outputs.errorMessage = 'API returned status: ' + (data.status || 'unknown') + '. HTTP: ' + httpStatus;
+            outputs.accountsImported = 0;
+            outputs.contactsImported = 0;
+            return;
+        }
+
+        var accounts = data.accounts || [];
+        var accountCount = 0;
+        var contactCount = 0;
+
+        // Step 3: Create import set for accounts
+        var acctImportSet = new GlideRecord('sys_import_set');
+        acctImportSet.initialize();
+        acctImportSet.setValue('table_name', 'x_1775706_salesfor_sf_acct_stg');
+        acctImportSet.setValue('state', 'loaded');
+        var acctImportSetId = acctImportSet.insert();
+
+        // Step 4: Insert account staging rows
+        for (var i = 0; i &lt; accounts.length; i++) {
+            var acctData = accounts[i].account;
+            if (acctData) {
+                var stgRow = new GlideRecord('x_1775706_salesfor_sf_acct_stg');
+                stgRow.initialize();
+                stgRow.setValue('sys_import_set', acctImportSetId);
+                stgRow.setValue('sys_import_state', 'pending');
+                for (var key in acctData) {
+                    if (acctData.hasOwnProperty(key) &amp;&amp; acctData[key] !== null) {
+                        stgRow.setValue('u_' + key.toLowerCase(), acctData[key]);
+                    }
+                }
+                stgRow.insert();
+                accountCount++;
+            }
+        }
+
+        // Step 5: Run account transform
+        var acctIsGr = new GlideRecord('sys_import_set');
+        acctIsGr.get(acctImportSetId);
+        var acctTransformer = new GlideImportSetTransformer();
+        acctTransformer.transformAllMaps(acctIsGr);
+
+        // Step 6: Import contacts if requested
+        if (includeContacts) {
+            var ctctImportSet = new GlideRecord('sys_import_set');
+            ctctImportSet.initialize();
+            ctctImportSet.setValue('table_name', 'x_1775706_salesfor_sf_ctct_stg');
+            ctctImportSet.setValue('state', 'loaded');
+            var ctctImportSetId = ctctImportSet.insert();
+
+            for (var j = 0; j &lt; accounts.length; j++) {
+                var contacts = accounts[j].contacts || [];
+                for (var k = 0; k &lt; contacts.length; k++) {
+                    var ctctData = contacts[k];
+                    var ctctRow = new GlideRecord('x_1775706_salesfor_sf_ctct_stg');
+                    ctctRow.initialize();
+                    ctctRow.setValue('sys_import_set', ctctImportSetId);
+                    ctctRow.setValue('sys_import_state', 'pending');
+                    for (var cKey in ctctData) {
+                        if (ctctData.hasOwnProperty(cKey) &amp;&amp; ctctData[cKey] !== null) {
+                            ctctRow.setValue('u_' + cKey.toLowerCase(), ctctData[cKey]);
+                        }
+                    }
+                    ctctRow.insert();
+                    contactCount++;
+                }
+            }
+
+            // Step 7: Run contact transform
+            var ctctIsGr = new GlideRecord('sys_import_set');
+            ctctIsGr.get(ctctImportSetId);
+            var ctctTransformer = new GlideImportSetTransformer();
+            ctctTransformer.transformAllMaps(ctctIsGr);
+        }
+
+        // Step 8: Set output variables
+        outputs.success = true;
+        outputs.accountsImported = accountCount;
+        outputs.contactsImported = contactCount;
+        outputs.errorMessage = '';
+
+    } catch (ex) {
+        outputs.success = false;
+        outputs.errorMessage = 'Error: ' + ex.message;
+        outputs.accountsImported = 0;
+        outputs.contactsImported = 0;
+    }
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d8684bc3c38fcb901facde1d050131ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 15:38:32</sys_created_on>
+        <sys_id>9846930bc3830f901facde1d0501314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requestSysId</field>
+        <id>d8684bc3c38fcb901facde1d050131ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>a0688bc3c38fcb901facde1d05013122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d8684bc3c38fcb901facde1d050131ad</table>
+        <value>{{action.importRequest}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d8684bc3c38fcb901facde1d050131ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>a8688bc3c38fcb901facde1d05013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad^id=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d8684bc3c38fcb901facde1d050131ad^sys_idNOT IN54684bc3c38fcb901facde1d050131b5"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>requestSysId</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>requestSysId</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Run SFDC Import">d8684bc3c38fcb901facde1d050131ad</model>
+        <model_id>d8684bc3c38fcb901facde1d050131ad</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d8684bc3c38fcb901facde1d050131ad</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>54684bc3c38fcb901facde1d050131b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d8684bc3c38fcb901facde1d050131ad^sys_idNOT IN18684bc3c38fcb901facde1d050131d8,98684bc3c38fcb901facde1d050131de,d0684bc3c38fcb901facde1d050131be,dc684bc3c38fcb901facde1d050131c5"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=85a6529e-0dc2-4cb1-b53c-dfe9deefc8be</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>accountsImported</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>accountsImported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">d8684bc3c38fcb901facde1d050131ad</model>
+        <model_id>d8684bc3c38fcb901facde1d050131ad</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>18684bc3c38fcb901facde1d050131d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=75972916-9164-4f5b-ae0c-6fc446cd1828</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">d8684bc3c38fcb901facde1d050131ad</model>
+        <model_id>d8684bc3c38fcb901facde1d050131ad</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>98684bc3c38fcb901facde1d050131de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=947254da-20fc-44b5-8011-01c1769f5407</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorMessage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>errorMessage</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Run SFDC Import">d8684bc3c38fcb901facde1d050131ad</model>
+        <model_id>d8684bc3c38fcb901facde1d050131ad</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>d0684bc3c38fcb901facde1d050131be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=14159a47-e797-45b0-b7f3-2804d5a0c87d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>contactsImported</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>contactsImported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Run SFDC Import">d8684bc3c38fcb901facde1d050131ad</model>
+        <model_id>d8684bc3c38fcb901facde1d050131ad</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>dc684bc3c38fcb901facde1d050131c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d8684bc3c38fcb901facde1d050131ad"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>accountsImported</element>
+        <help/>
+        <hint/>
+        <label>accountsImported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>58684bc3c38fcb901facde1d050131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorMessage</element>
+        <help/>
+        <hint/>
+        <label>errorMessage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>9c684bc3c38fcb901facde1d050131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>contactsImported</element>
+        <help/>
+        <hint/>
+        <label>contactsImported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:54</sys_created_on>
+        <sys_id>d4684bc3c38fcb901facde1d050131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d8684bc3c38fcb901facde1d050131ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:55</sys_created_on>
+        <sys_id>d4688bc3c38fcb901facde1d05013114</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=750fb2c3c38bcb901facde1d05013116^sys_idNOT INf90fb2c3c38bcb901facde1d05013141"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,timeFromCreateToActivate=8000,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ca6e1897-0e1a-4fa6-99f7-9f4d06e67236</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>importRequest</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Import Request</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="x_1775706_salesfor_sf_import_req">x_1775706_salesfor_sf_import_req</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:35</sys_created_on>
+        <sys_id>f90fb2c3c38bcb901facde1d05013141</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f90fb2c3c38bcb901facde1d05013141"/>
+    <sys_hub_action_output action="delete_multiple" query="model=750fb2c3c38bcb901facde1d05013116^sys_idNOT IN1a0ff2c3c38bcb901facde1d050131f9,420ff2c3c38bcb901facde1d050131c4,560f36c3c38bcb901facde1d0501314a,5a0f36c3c38bcb901facde1d05013151,820ff2c3c38bcb901facde1d050131f2,d20f36c3c38bcb901facde1d0501310d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=1882c711a32a49d3a05ab904654ca903-accountsImported</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>accountsImported</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Accounts Imported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:36</sys_created_on>
+        <sys_id>1a0ff2c3c38bcb901facde1d050131f9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a0ff2c3c38bcb901facde1d050131f9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a0ff2c3c38bcb901facde1d050131f9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=1882c711a32a49d3a05ab904654ca903-success</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>success</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Success</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:36</sys_created_on>
+        <sys_id>420ff2c3c38bcb901facde1d050131c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 14:37:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=420ff2c3c38bcb901facde1d050131c4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=420ff2c3c38bcb901facde1d050131c4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=integer,uiTypeLabel=Integer,uiUniqueId=1882c711a32a49d3a05ab904654ca903-contactsImported</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>contactsImported</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Contacts Imported</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:36</sys_created_on>
+        <sys_id>560f36c3c38bcb901facde1d0501314a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=560f36c3c38bcb901facde1d0501314a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=560f36c3c38bcb901facde1d0501314a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=1882c711a32a49d3a05ab904654ca903-errorMessage</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>errorMessage</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error Message</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 14:37:36</sys_created_on>
+        <sys_id>5a0f36c3c38bcb901facde1d05013151</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier/>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5a0f36c3c38bcb901facde1d05013151"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a0f36c3c38bcb901facde1d05013151"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1882c711a32a49d3a05ab904654ca903-action-status</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:04</sys_created_on>
+        <sys_id>820ff2c3c38bcb901facde1d050131f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=820ff2c3c38bcb901facde1d050131f2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=820ff2c3c38bcb901facde1d050131f2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=1882c711a32a49d3a05ab904654ca903-action-error,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</model>
+        <model_id>750fb2c3c38bcb901facde1d05013116</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>d20f36c3c38bcb901facde1d0501310d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 15:38:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d20f36c3c38bcb901facde1d0501310d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d20f36c3c38bcb901facde1d0501310d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=750fb2c3c38bcb901facde1d05013116"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=750fb2c3c38bcb901facde1d05013116^sys_idNOT IN120f36c3c38bcb901facde1d0501318c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SFDC Import Action">750fb2c3c38bcb901facde1d05013116</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>120f36c3c38bcb901facde1d0501318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=120f36c3c38bcb901facde1d0501318c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>importRequest</element>
+        <help/>
+        <hint/>
+        <label>Import Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Import Requests</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:03</sys_created_on>
+        <sys_id>bd0fb2c3c38bcb901facde1d05013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_750fb2c3c38bcb901facde1d05013116"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>success</element>
+        <help/>
+        <hint/>
+        <label>Success</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Success</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:04</sys_created_on>
+        <sys_id>0e0ff2c3c38bcb901facde1d050131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Don't Treat as Errors</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>1a0f36c3c38bcb901facde1d05013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>contactsImported</element>
+        <help/>
+        <hint/>
+        <label>Contacts Imported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Contacts Imported</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>1a0f36c3c38bcb901facde1d0501314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>accountsImported</element>
+        <help/>
+        <hint/>
+        <label>Accounts Imported</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Accounts Imported</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>920f36c3c38bcb901facde1d0501310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Action Status</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:04</sys_created_on>
+        <sys_id>c60ff2c3c38bcb901facde1d050131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>errorMessage</element>
+        <help/>
+        <hint/>
+        <label>Error Message</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116</name>
+        <plural>Error Messages</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:57:05</sys_created_on>
+        <sys_id>d20f36c3c38bcb901facde1d05013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_750fb2c3c38bcb901facde1d05013116"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>1882c711a32a49d3a05ab904654ca903</sys_id>
+        <latest_snapshot>750fb2c3c38bcb901facde1d05013116</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

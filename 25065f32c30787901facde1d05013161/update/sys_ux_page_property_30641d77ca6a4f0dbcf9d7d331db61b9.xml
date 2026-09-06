@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="SF Migration">9b75819c0ac34d53a5c1df829fa82955</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_footer</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30641d77ca6a4f0dbcf9d7d331db61b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_ux_page_property_30641d77ca6a4f0dbcf9d7d331db61b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:51</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=30641d77ca6a4f0dbcf9d7d331db61b9"/>
+</record_update>

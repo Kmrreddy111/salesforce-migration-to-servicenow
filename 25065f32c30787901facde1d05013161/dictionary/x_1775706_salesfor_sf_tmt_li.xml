@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2593ca965eeb4459a33b02871a20b543" extends="sn_ind_tmt_orm_order_line_item" label="SF Telecom Order Line" name="x_1775706_salesfor_sf_tmt_li" type="collection"/>
+</database>

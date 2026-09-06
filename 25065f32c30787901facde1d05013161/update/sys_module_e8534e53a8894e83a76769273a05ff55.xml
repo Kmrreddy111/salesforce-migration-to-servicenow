@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "name": "x-1775706-salesforce-appilaction-that-helps-migration",
+  "version": "1.0.0",
+  "description": "migration application",
+  "license": "UNLICENSED",
+  "imports": {
+    "#now:*": "./@types/servicenow/fluent/*/index.js"
+  },
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.11.2",
+    "@servicenow/glide": "27.0.5"
+  }
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1775706_salesfor/x-1775706-salesforce-appilaction-that-helps-migration/1.0.0/package.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 10:57:17</sys_created_on>
+        <sys_id>e8534e53a8894e83a76769273a05ff55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1775706_salesfor/x-1775706-salesforce-appilaction-that-helps-migration/1.0.0/package.json</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_module_e8534e53a8894e83a76769273a05ff55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 10:57:17</sys_updated_on>
+    </sys_module>
+</record_update>

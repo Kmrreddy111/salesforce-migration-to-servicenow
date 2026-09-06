@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="648ee33401994a7185eda93d0bcec2fc" extends="sn_quote_mgmt_core_quote" label="SF Quote" name="x_1775706_salesfor_sf_quote" type="collection"/>
+</database>

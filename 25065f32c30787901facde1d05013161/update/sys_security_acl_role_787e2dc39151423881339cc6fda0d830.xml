@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 11:30:37</sys_created_on>
+        <sys_id>787e2dc39151423881339cc6fda0d830</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sf-migration.*.</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_security_acl display_value="sf-migration.*">f6510ca606384eb3a50739b0f8eac61f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_787e2dc39151423881339cc6fda0d830</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 11:30:37</sys_updated_on>
+        <sys_user_role display_value="x_1775706_salesfor.user" name="x_1775706_salesfor.user">75a68d8041c64107a90581e3a8000200</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

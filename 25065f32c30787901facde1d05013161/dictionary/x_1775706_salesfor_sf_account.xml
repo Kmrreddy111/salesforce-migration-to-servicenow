@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="290e6f963c674b6ead830eb860a6eb77" extends="customer_account" label="SF Account" name="x_1775706_salesfor_sf_account" type="collection"/>
+</database>

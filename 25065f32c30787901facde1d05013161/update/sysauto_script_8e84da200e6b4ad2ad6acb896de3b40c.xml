@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>SFDC Import Pipeline Test</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-09-05 13:24:01</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>once</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[(function () {
+    gs.info('=== SFDC Import Pipeline Test Started ===');
+
+    var jsonStr = '{"status":"success","accounts":[{"contacts":[{"Title":"Purchase Manager","Phone":"9000000001","Name":"RAYAN FAIZ","LastName":"FAIZ","Id":"003dN00000UxZ25QAF","FirstName":"RAYAN","Email":"rayan.faiz@avatu.in","AccountId":"001dN000011ZtlJQAS"},{"Title":"ICU Head","Phone":"9000000003","Name":"Sneha Mallavelli","LastName":"Mallavelli","Id":"003dN00000UxZYLQA3","FirstName":"Sneha","Email":"snehamallavelli123@gmail.com","AccountId":"001dN000011ZtlJQAS"},{"Title":"Finance Approver","Phone":"9000000002","Name":"Manjunath Reddy","LastName":"Reddy","Id":"003dN00000UxZQHQA3","FirstName":"Manjunath","Email":"manjunath.reddy@avatu.in","AccountId":"001dN000011ZtlJQAS"}],"contactCount":3,"account":{"Website":"www.apollohospital.com","Type":"Prospect","Phone":"040-23607777","ParentId":"001dN000011aHm4QAE","OwnerId":"005dN00000ASYH7QAP","Name":"Apollo Hospitals Hyderabad","Industry":"Healthcare","Id":"001dN000011ZtlJQAS","Description":"Apollo Hospitals Hyderabad is procuring ICU monitoring equipment, installation, clinical training and a 3-year maintenance contract from GE Healthcare"}},{"contacts":[],"contactCount":0,"account":{"Website":null,"Type":"Competitor","Phone":null,"ParentId":null,"OwnerId":"005dN00000ASYH7QAP","Name":"testing1","Industry":"Education","Id":"001dN000011Z2nRQAS","Description":null}}]}';
+
+    var data = JSON.parse(jsonStr);
+
+    // =========================================================================
+    // Helper: Transform an import set synchronously
+    // =========================================================================
+    function transformImportSet(importSetSysId) {
+        try {
+            var gr = new GlideRecord('sys_import_set');
+            if (!gr.get(importSetSysId)) {
+                gs.error('Import set not found: ' + importSetSysId);
+                return false;
+            }
+            var transformer = new GlideImportSetTransformer();
+            transformer.transformAllMaps(gr);
+            gs.info('Transform completed for import set: ' + importSetSysId);
+            return true;
+        } catch (e) {
+            gs.warn('GlideImportSetTransformer failed (' + e.message + '). Trying worker approach...');
+            try {
+                var worker = new GlideScriptedHierarchicalWorker();
+                worker.setProgressName('SFDC Test Transform');
+                worker.setScriptIncludeName('ImportSetTransformerWorker');
+                worker.setScriptIncludeMethod('transform');
+                worker.putMethodArg('import_set_sys_id', importSetSysId.toString());
+                worker.setBackground(false);
+                worker.start();
+                gs.info('Transform via worker completed for import set: ' + importSetSysId);
+                return true;
+            } catch (e2) {
+                gs.error('All transform methods failed: ' + e2.message);
+                return false;
+            }
+        }
+    }
+
+    // =========================================================================
+    // STEP 1: Import Accounts
+    // =========================================================================
+    gs.info('--- Step 1: Importing Accounts ---');
+
+    var acctIS = new GlideRecord('sys_import_set');
+    acctIS.initialize();
+    acctIS.setValue('table_name', 'x_1775706_salesfor_sf_acct_stg');
+    acctIS.setValue('state', 'loaded');
+    var acctISId = acctIS.insert();
+    gs.info('Created account import set: ' + acctISId);
+
+    var acctCount = 0;
+    for (var i = 0; i < data.accounts.length; i++) {
+        var acct = data.accounts[i].account;
+        var aRow = new GlideRecord('x_1775706_salesfor_sf_acct_stg');
+        aRow.initialize();
+        aRow.setValue('sys_import_set', acctISId);
+        aRow.setValue('sys_import_state', 'pending');
+        aRow.setValue('u_id', acct.Id || '');
+        aRow.setValue('u_name', acct.Name || '');
+        aRow.setValue('u_phone', acct.Phone || '');
+        aRow.setValue('u_website', acct.Website || '');
+        aRow.setValue('u_type', acct.Type || '');
+        aRow.setValue('u_industry', acct.Industry || '');
+        aRow.setValue('u_description', acct.Description || '');
+        aRow.setValue('u_parentid', acct.ParentId || '');
+        aRow.setValue('u_ownerid', acct.OwnerId || '');
+        aRow.insert();
+        acctCount++;
+        gs.info('  Staged account: ' + acct.Name + ' (SF ID: ' + acct.Id + ')');
+    }
+    gs.info('Staged ' + acctCount + ' account rows. Running account transform...');
+
+    var acctTransformOk = transformImportSet(acctISId);
+
+    // Verify account results
+    var acctVerify = new GlideRecord('x_1775706_salesfor_sf_account');
+    acctVerify.addQuery('x_1775706_salesf_1_salesforce_id', 'STARTSWITH', '001dN000');
+    acctVerify.query();
+    gs.info('Account verification: found ' + acctVerify.getRowCount() + ' SF Account records');
+    while (acctVerify.next()) {
+        gs.info('  -> Account: ' + acctVerify.getValue('name') +
+            ' | SF ID: ' + acctVerify.getValue('x_1775706_salesf_1_salesforce_id') +
+            ' | Phone: ' + acctVerify.getValue('phone') +
+            ' | Industry: ' + acctVerify.getValue('industry') +
+            ' | Website: ' + acctVerify.getValue('website'));
+    }
+
+    // =========================================================================
+    // STEP 2: Import Contacts (after accounts, so references resolve)
+    // =========================================================================
+    gs.info('--- Step 2: Importing Contacts ---');
+
+    var ctctIS = new GlideRecord('sys_import_set');
+    ctctIS.initialize();
+    ctctIS.setValue('table_name', 'x_1775706_salesfor_sf_ctct_stg');
+    ctctIS.setValue('state', 'loaded');
+    var ctctISId = ctctIS.insert();
+    gs.info('Created contact import set: ' + ctctISId);
+
+    var ctctCount = 0;
+    for (var j = 0; j < data.accounts.length; j++) {
+        var contacts = data.accounts[j].contacts;
+        for (var k = 0; k < contacts.length; k++) {
+            var ctct = contacts[k];
+            var cRow = new GlideRecord('x_1775706_salesfor_sf_ctct_stg');
+            cRow.initialize();
+            cRow.setValue('sys_import_set', ctctISId);
+            cRow.setValue('sys_import_state', 'pending');
+            cRow.setValue('u_id', ctct.Id || '');
+            cRow.setValue('u_firstname', ctct.FirstName || '');
+            cRow.setValue('u_lastname', ctct.LastName || '');
+            cRow.setValue('u_name', ctct.Name || '');
+            cRow.setValue('u_email', ctct.Email || '');
+            cRow.setValue('u_phone', ctct.Phone || '');
+            cRow.setValue('u_title', ctct.Title || '');
+            cRow.setValue('u_accountid', ctct.AccountId || '');
+            cRow.insert();
+            ctctCount++;
+            gs.info('  Staged contact: ' + ctct.Name + ' (SF ID: ' + ctct.Id + ')');
+        }
+    }
+    gs.info('Staged ' + ctctCount + ' contact rows. Running contact transform...');
+
+    var ctctTransformOk = transformImportSet(ctctISId);
+
+    // Verify contact results
+    var ctctVerify = new GlideRecord('x_1775706_salesfor_sf_contact');
+    ctctVerify.addQuery('x_1775706_salesf_1_salesforce_id', 'STARTSWITH', '003dN000');
+    ctctVerify.query();
+    gs.info('Contact verification: found ' + ctctVerify.getRowCount() + ' SF Contact records');
+    while (ctctVerify.next()) {
+        gs.info('  -> Contact: ' + ctctVerify.getValue('first_name') + ' ' + ctctVerify.getValue('last_name') +
+            ' | SF ID: ' + ctctVerify.getValue('x_1775706_salesf_1_salesforce_id') +
+            ' | Email: ' + ctctVerify.getValue('email') +
+            ' | Title: ' + ctctVerify.getValue('title') +
+            ' | Account: ' + ctctVerify.getDisplayValue('account'));
+    }
+
+    // =========================================================================
+    // Summary
+    // =========================================================================
+    gs.info('=== SFDC Import Pipeline Test Summary ===');
+    gs.info('  Accounts staged: ' + acctCount + ' | Transform: ' + (acctTransformOk ? 'SUCCESS' : 'FAILED'));
+    gs.info('  Contacts staged: ' + ctctCount + ' | Transform: ' + (ctctTransformOk ? 'SUCCESS' : 'FAILED'));
+    gs.info('=== Test Complete ===');
+})();
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 13:20:48</sys_created_on>
+        <sys_id>8e84da200e6b4ad2ad6acb896de3b40c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFDC Import Pipeline Test</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sysauto_script_8e84da200e6b4ad2ad6acb896de3b40c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 13:20:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

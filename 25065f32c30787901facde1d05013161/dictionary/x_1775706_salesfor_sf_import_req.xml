@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9b0e3d3d717a4f18a4f7da0da55d8136" label="SF Import Request" name="x_1775706_salesfor_sf_import_req" type="collection">
+        <element default="pending" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+                <element inactive_on_update="false" label="Processing" value="processing"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element label="Account Name" mandatory="true" max_length="255" name="account_name" type="string"/>
+        <element default="0" label="Accounts Imported" max_length="40" name="accounts_imported" type="integer"/>
+        <element default="0" label="Contacts Imported" max_length="40" name="contacts_imported" type="integer"/>
+        <element default="true" label="Include Contacts" max_length="40" name="include_contacts" type="boolean"/>
+        <element label="Result Summary" max_length="4000" name="result_summary" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:19e77135-8a10-40f3-9091-7522e6d2ecb1",
+  "metadata": {
+    "timestamp": "2026-09-05T10:57:11.294Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.11.2",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1775706-salesforce-appilaction-that-helps-migration",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1775706-salesforce-appilaction-that-helps-migration@1.0.0?sys_scope_id=25065f32c30787901facde1d05013161",
+      "description": "migration application",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1775706-salesforce-appilaction-that-helps-migration@1.0.0?sys_scope_id=25065f32c30787901facde1d05013161"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1775706-salesforce-appilaction-that-helps-migration@1.0.0?sys_scope_id=25065f32c30787901facde1d05013161"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1775706_salesfor/x-1775706-salesforce-appilaction-that-helps-migration/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 10:57:17</sys_created_on>
+        <sys_id>9367a749bcc44b9988e234e558791e07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1775706_salesfor/x-1775706-salesforce-appilaction-that-helps-migration/1.0.0/bom.json</sys_name>
+        <sys_package display_value="Salesforce appilaction that helps migration" source="x_1775706_salesfor">25065f32c30787901facde1d05013161</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Salesforce appilaction that helps migration">25065f32c30787901facde1d05013161</sys_scope>
+        <sys_update_name>sys_module_9367a749bcc44b9988e234e558791e07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 10:57:17</sys_updated_on>
+    </sys_module>
+</record_update>
